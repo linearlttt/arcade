@@ -1283,19 +1283,19 @@ TextBox_3.TextWrapped = true
 
 -- Scripts:
 
-local function UXMMWP_fake_script() -- NovaArcade.NotificationScript 
+local function OZKFL_fake_script() -- NovaArcade.NotificationScript 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local sg=game:GetService("StarterGui")
 	local sh=script.Parent
 	local function sn(t,tx,d)sg:SetCore("SendNotification",{Title=t,Text=tx,Duration=d})end
 	local iw=true
-	if iw then sn("Hoop Nation 2","SUBZEROHUB HAS SUCCESSFULLY LOADED! Version 2.86 \n\t\t🟢: Working",3)sh.Enabled=true else sh.Enabled=false sn("Hoop Nation 2","SUBZEROHUB FAILED TO LOAD! Version 2.86 🔴: Not Working / Game has Updated",3)end
+	if iw then sn("Arcade BasketBall","NOVA HAS SUCCESSFULLY LOADED! Version 0.62 \n\t\t🟢: Working",3)sh.Enabled=true else sh.Enabled=false sn("Hoop Nation 2","SUBZEROHUB FAILED TO LOAD! Version 2.86 🔴: Not Working / Game has Updated",3)end
 	
 	
 end
-coroutine.wrap(UXMMWP_fake_script)()
-local function AIKPKSN_fake_script() -- NovaArcade.AntiAfk 
+coroutine.wrap(OZKFL_fake_script)()
+local function VCQVGBH_fake_script() -- NovaArcade.AntiAfk 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local Players = game:GetService("Players")
@@ -1313,8 +1313,8 @@ local function AIKPKSN_fake_script() -- NovaArcade.AntiAfk
 	preventIdle()
 	
 end
-coroutine.wrap(AIKPKSN_fake_script)()
-local function OUOYTRJ_fake_script() -- NovaArcade.LocalScript 
+coroutine.wrap(VCQVGBH_fake_script)()
+local function BTPKT_fake_script() -- NovaArcade.LocalScript 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local request = (syn and syn.request) or (http and http.request) or http_request or request;
@@ -1340,8 +1340,8 @@ local function OUOYTRJ_fake_script() -- NovaArcade.LocalScript
 	})
 	
 end
-coroutine.wrap(OUOYTRJ_fake_script)()
-local function MXPQH_fake_script() -- ui.LocalScript 
+coroutine.wrap(BTPKT_fake_script)()
+local function HGPMB_fake_script() -- ui.LocalScript 
 	local script = Instance.new('LocalScript', ui)
 
 	local MAINFRAME = script.Parent
@@ -1360,8 +1360,8 @@ local function MXPQH_fake_script() -- ui.LocalScript
 	
 	
 end
-coroutine.wrap(MXPQH_fake_script)()
-local function NXGI_fake_script() -- Tab1.LocalScript 
+coroutine.wrap(HGPMB_fake_script)()
+local function CAPP_fake_script() -- Tab1.LocalScript 
 	local script = Instance.new('LocalScript', Tab1)
 
 	
@@ -1372,8 +1372,8 @@ local function NXGI_fake_script() -- Tab1.LocalScript
 	
 	end)
 end
-coroutine.wrap(NXGI_fake_script)()
-local function KTUMX_fake_script() -- Tab3.LocalScript 
+coroutine.wrap(CAPP_fake_script)()
+local function KSZTWUG_fake_script() -- Tab3.LocalScript 
 	local script = Instance.new('LocalScript', Tab3)
 
 	
@@ -1384,8 +1384,8 @@ local function KTUMX_fake_script() -- Tab3.LocalScript
 	
 	end)
 end
-coroutine.wrap(KTUMX_fake_script)()
-local function MFPPV_fake_script() -- Tab2.LocalScript 
+coroutine.wrap(KSZTWUG_fake_script)()
+local function ZNOEB_fake_script() -- Tab2.LocalScript 
 	local script = Instance.new('LocalScript', Tab2)
 
 	
@@ -1396,24 +1396,24 @@ local function MFPPV_fake_script() -- Tab2.LocalScript
 	end)
 	
 end
-coroutine.wrap(MFPPV_fake_script)()
-local function JZQC_fake_script() -- InfiniteStam.Obfuscated-LocalScript 
+coroutine.wrap(ZNOEB_fake_script)()
+local function OUUG_fake_script() -- InfiniteStam.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', InfiniteStam)
 
 	
 	
 	local Players = game:GetService("Players") local player = Players.LocalPlayer local Toggle  local loopActive = false local staminaValue = nil   local function findStamina() local playerValues = player:FindFirstChild("Values") if playerValues then staminaValue = playerValues:FindFirstChild("Stamina") or playerValues:FindFirstChild("MaxStamina") if staminaValue then return staminaValue end end if player.Character then local charValues = player.Character:FindFirstChild("Values") if charValues then staminaValue = charValues:FindFirstChild("Stamina") or charValues:FindFirstChild("MaxStamina") end end return staminaValue end  local function enforceStamina() while loopActive and task.wait() do if not staminaValue or not staminaValue.Parent then staminaValue = findStamina() end  if staminaValue then if staminaValue:IsA("BoolValue") then staminaValue.Value = true elseif (staminaValue:IsA("IntValue") or staminaValue:IsA("NumberValue")) then staminaValue.Value = 1  end end end end  local function startStaminaEnforcement() coroutine.wrap(function() enforceStamina() end)() end  player.CharacterAdded:Connect(function() if Toggle then staminaValue = findStamina() end end)  if Toggle then print("working") startStaminaEnforcement() end   script.Parent.MouseButton1Click:Connect(function() Toggle = not Toggle loopActive = Toggle  if Toggle then startStaminaEnforcement() script.Parent.BackgroundColor3 = Color3.fromRGB(255, 228, 26)  else script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15)  end end)  
 end
-coroutine.wrap(JZQC_fake_script)()
-local function VHPSZ_fake_script() -- AutoSprint.Obfuscated-LocalScript 
+coroutine.wrap(OUUG_fake_script)()
+local function ASLR_fake_script() -- AutoSprint.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoSprint)
 
 	
 	
 	local sprintEvent = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Sprint") local Toggle = false  script.Parent.MouseButton1Click:Connect(function() Toggle = not Toggle  if Toggle then  script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74)  while Toggle do sprintEvent:FireServer(true) task.wait()  end else script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15)  sprintEvent:FireServer(false)  end end) 
 end
-coroutine.wrap(VHPSZ_fake_script)()
-local function TVURRH_fake_script() -- AntiFling.Obfuscated-LocalScript 
+coroutine.wrap(ASLR_fake_script)()
+local function ADKKUVI_fake_script() -- AntiFling.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AntiFling)
 
 	--[[
@@ -1425,15 +1425,15 @@ local function TVURRH_fake_script() -- AntiFling.Obfuscated-LocalScript
 	
 	local Services = setmetatable({}, {__index = function(Self, Index) local NewService = game.GetService(game, Index) if NewService then Self[Index] = NewService end return NewService end})   local LocalPlayer = Services.Players.LocalPlayer   local antifling = false local Toggle = false local Parent = script.Parent.Parent  local function PlayerAdded(Player) local Detected = false local Character; local PrimaryPart;  local function CharacterAdded(NewCharacter) Character = NewCharacter repeat wait() PrimaryPart = NewCharacter:FindFirstChild("HumanoidRootPart") until PrimaryPart Detected = false end  CharacterAdded(Player.Character or Player.CharacterAdded:Wait()) Player.CharacterAdded:Connect(CharacterAdded) Services.RunService.Heartbeat:Connect(function() if Toggle and (Character and Character:IsDescendantOf(workspace)) and (PrimaryPart and PrimaryPart:IsDescendantOf(Character)) then if PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 or PrimaryPart.AssemblyLinearVelocity.Magnitude > 100 then Detected = true for i,v in ipairs(Character:GetDescendants()) do if v:IsA("BasePart") then v.CanCollide = false v.AssemblyAngularVelocity = Vector3.new(0, 0, 0) v.AssemblyLinearVelocity = Vector3.new(0, 0, 0) v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0) end end  PrimaryPart.CanCollide = false PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0) PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0) PrimaryPart.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0) end end end) end  for i,v in ipairs(Services.Players:GetPlayers()) do if v ~= LocalPlayer then PlayerAdded(v) end end Services.Players.PlayerAdded:Connect(PlayerAdded)  local LastPosition = nil Services.RunService.Heartbeat:Connect(function() pcall(function() local PrimaryPart = LocalPlayer.Character.PrimaryPart if Toggle and (PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250) then PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0) PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0) PrimaryPart.CFrame = LastPosition elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then LastPosition = PrimaryPart.CFrame end end) end)  script.Parent.MouseButton1Click:connect(function() if not Toggle then Toggle = true if Toggle == true then  antifling = true end script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74) elseif Toggle then Toggle = false if Toggle == false then antifling = false end script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15) end end)   
 end
-coroutine.wrap(TVURRH_fake_script)()
-local function JXBOQ_fake_script() -- ControllerAutoGreen.Obfuscated-LocalScript 
+coroutine.wrap(ADKKUVI_fake_script)()
+local function NENQDP_fake_script() -- ControllerAutoGreen.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', ControllerAutoGreen)
 
 	
 	local Toggle = false local Parent = script.Parent.Parent  local autogreen = false local UIS = game:GetService("UserInputService")  script.Parent.MouseButton1Click:connect(function() if not Toggle then Toggle = true autogreen = true script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74) else Toggle = false autogreen = false script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15) end end)  UIS.InputBegan:Connect(function(input, gameProcessedEvent) if gameProcessedEvent then return end if input.KeyCode == Enum.KeyCode.DPadUp then if Toggle then local meter = Parent:FindFirstChild("Meter") if meter then meter.Enabled = true end game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(true, 100) game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, true) else game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, false) end end end)  UIS.InputEnded:Connect(function(input, gameProcessedEvent) if gameProcessedEvent then return end if input.KeyCode == Enum.KeyCode.ButtonB then game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, false) end end)   
 end
-coroutine.wrap(JXBOQ_fake_script)()
-local function LJCUIY_fake_script() -- AutoGreen.Obfuscated-LocalScript 
+coroutine.wrap(NENQDP_fake_script)()
+local function FOFWVUE_fake_script() -- AutoGreen.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGreen)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1574,8 +1574,8 @@ local function LJCUIY_fake_script() -- AutoGreen.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(LJCUIY_fake_script)()
-local function LEDCTB_fake_script() -- AutoScreen.LocalScript 
+coroutine.wrap(FOFWVUE_fake_script)()
+local function TEHABFX_fake_script() -- AutoScreen.LocalScript 
 	local script = Instance.new('LocalScript', AutoScreen)
 
 	local Toggle = false
@@ -1617,8 +1617,8 @@ local function LEDCTB_fake_script() -- AutoScreen.LocalScript
 	end)
 	
 end
-coroutine.wrap(LEDCTB_fake_script)()
-local function TMOUCO_fake_script() -- ForceReset.LocalScript 
+coroutine.wrap(TEHABFX_fake_script)()
+local function UOYJMM_fake_script() -- ForceReset.LocalScript 
 	local script = Instance.new('LocalScript', ForceReset)
 
 	local Players = game:GetService("Players")
@@ -1649,8 +1649,8 @@ local function TMOUCO_fake_script() -- ForceReset.LocalScript
 	
 	
 end
-coroutine.wrap(TMOUCO_fake_script)()
-local function XNJFY_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(UOYJMM_fake_script)()
+local function WUVRT_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1660,8 +1660,8 @@ local function XNJFY_fake_script() -- TextButton.LocalScript
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId) 
 	end)
 end
-coroutine.wrap(XNJFY_fake_script)()
-local function ZTPFXL_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(WUVRT_fake_script)()
+local function MWQD_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local Players = game:GetService("Players")
@@ -1684,8 +1684,8 @@ local function ZTPFXL_fake_script() -- TextButton_2.LocalScript
 	
 	
 end
-coroutine.wrap(ZTPFXL_fake_script)()
-local function QZPCFZ_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(MWQD_fake_script)()
+local function OIFGFW_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1693,8 +1693,8 @@ local function QZPCFZ_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(QZPCFZ_fake_script)()
-local function PDNJWI_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(OIFGFW_fake_script)()
+local function MWVM_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1747,16 +1747,16 @@ local function PDNJWI_fake_script() -- TextButton_4.LocalScript
 	
 	
 end
-coroutine.wrap(PDNJWI_fake_script)()
-local function XVFQRLW_fake_script() -- AntiAnkles.Obfuscated-LocalScript 
+coroutine.wrap(MWVM_fake_script)()
+local function YBAUX_fake_script() -- AntiAnkles.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AntiAnkles)
 
 	
 	
 	local player = game:GetService("Players").LocalPlayer local anklesValue = player:WaitForChild("Values"):WaitForChild("Ankles") local char = player.Character or player.CharacterAdded:Wait() local hrp = char:WaitForChild("HumanoidRootPart") local humanoid = char:WaitForChild("Humanoid")  local ankleBreakerId = "rbxassetid://89008535250310"  script.Parent.MouseButton1Click:Connect(function()     local connection     connection = anklesValue:GetPropertyChangedSignal("Value"):Connect(function()         if anklesValue.Value == true then             local bv = hrp:FindFirstChildOfClass("BodyVelocity")             if bv then                 repeat bv.MaxForce = Vector3.new(0, 0, 0) task.wait() until bv.MaxForce == Vector3.new(0, 0, 0)             end             if humanoid and humanoid:FindFirstChildOfClass("Animator") then                 local animator = humanoid:FindFirstChildOfClass("Animator")                 local tracks = animator:GetPlayingAnimationTracks()                 for _, track in ipairs(tracks) do                     if track.Animation and track.Animation.AnimationId == ankleBreakerId then                         track:Stop()                     end                 end             end         end     end) end)   
 end
-coroutine.wrap(XVFQRLW_fake_script)()
-local function WIPTS_fake_script() -- AutoAnkles.Obfuscated--LocalScript 
+coroutine.wrap(YBAUX_fake_script)()
+local function IJLHJTG_fake_script() -- AutoAnkles.Obfuscated--LocalScript 
 	local script = Instance.new('LocalScript', AutoAnkles)
 
 	local Players = game:GetService("Players")
@@ -1838,8 +1838,8 @@ local function WIPTS_fake_script() -- AutoAnkles.Obfuscated--LocalScript
 	
 	
 end
-coroutine.wrap(WIPTS_fake_script)()
-local function ZROH_fake_script() -- AutoGreen_2.Obfuscated-LocalScript 
+coroutine.wrap(IJLHJTG_fake_script)()
+local function HHUGATL_fake_script() -- AutoGreen_2.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGreen_2)
 
 	local Toggle = false
@@ -1896,8 +1896,8 @@ local function ZROH_fake_script() -- AutoGreen_2.Obfuscated-LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZROH_fake_script)()
-local function FHGV_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScript 
+coroutine.wrap(HHUGATL_fake_script)()
+local function AZDEC_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', ControllerAutoGreen_2)
 
 	local Toggle = false
@@ -1975,8 +1975,8 @@ local function FHGV_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScrip
 		end
 	end)
 end
-coroutine.wrap(FHGV_fake_script)()
-local function NQWUPOS_fake_script() -- AutoGuard.Obfuscated-LocalScript 
+coroutine.wrap(AZDEC_fake_script)()
+local function ZEALLW_fake_script() -- AutoGuard.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGuard)
 
 	-- Services
@@ -2065,8 +2065,8 @@ local function NQWUPOS_fake_script() -- AutoGuard.Obfuscated-LocalScript
 	end)
 	
 end
-coroutine.wrap(NQWUPOS_fake_script)()
-local function UEDEPU_fake_script() -- PickUpRange.Obfuscated--LocalScript 
+coroutine.wrap(ZEALLW_fake_script)()
+local function GQHJ_fake_script() -- PickUpRange.Obfuscated--LocalScript 
 	local script = Instance.new('LocalScript', PickUpRange)
 
 	local Players = game:GetService("Players")
@@ -2300,8 +2300,8 @@ local function UEDEPU_fake_script() -- PickUpRange.Obfuscated--LocalScript
 	UpdatePickupState()
 	debugPrint("Script initialized")
 end
-coroutine.wrap(UEDEPU_fake_script)()
-local function MFOLKOR_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(GQHJ_fake_script)()
+local function VCJGYD_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local Players = game:GetService("Players")
@@ -2346,8 +2346,8 @@ local function MFOLKOR_fake_script() -- TextBox_2.LocalScript
 	
 	
 end
-coroutine.wrap(MFOLKOR_fake_script)()
-local function IEKPI_fake_script() -- Noclip.Obfuscated-LocalScript 
+coroutine.wrap(VCJGYD_fake_script)()
+local function AKHQ_fake_script() -- Noclip.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', Noclip)
 
 	local RunService = game:GetService("RunService")
@@ -2433,8 +2433,8 @@ local function IEKPI_fake_script() -- Noclip.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(IEKPI_fake_script)()
-local function SDOTSS_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript 
+coroutine.wrap(AKHQ_fake_script)()
+local function HHEFVU_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', TeleportFakeLag)
 
 	local Players = game:GetService("Players")
@@ -2497,8 +2497,8 @@ local function SDOTSS_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(SDOTSS_fake_script)()
-local function YKSDFG_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript 
+coroutine.wrap(HHEFVU_fake_script)()
+local function VLGATU_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', WalkSpeedChanger)
 
 	-- Services
@@ -2685,4 +2685,4 @@ local function YKSDFG_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(YKSDFG_fake_script)()
+coroutine.wrap(VLGATU_fake_script)()
