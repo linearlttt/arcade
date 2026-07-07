@@ -1283,7 +1283,7 @@ TextBox_3.TextWrapped = true
 
 -- Scripts:
 
-local function WEBIG_fake_script() -- NovaArcade.NotificationScript 
+local function FDYDMU_fake_script() -- NovaArcade.NotificationScript 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local sg=game:GetService("StarterGui")
@@ -1294,8 +1294,8 @@ local function WEBIG_fake_script() -- NovaArcade.NotificationScript
 	
 	
 end
-coroutine.wrap(WEBIG_fake_script)()
-local function NBED_fake_script() -- NovaArcade.AntiAfk 
+coroutine.wrap(FDYDMU_fake_script)()
+local function TKKMMIY_fake_script() -- NovaArcade.AntiAfk 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local Players = game:GetService("Players")
@@ -1313,8 +1313,8 @@ local function NBED_fake_script() -- NovaArcade.AntiAfk
 	preventIdle()
 	
 end
-coroutine.wrap(NBED_fake_script)()
-local function WUMFRFR_fake_script() -- NovaArcade.LocalScript 
+coroutine.wrap(TKKMMIY_fake_script)()
+local function YDPRLI_fake_script() -- NovaArcade.LocalScript 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local request = (syn and syn.request) or (http and http.request) or http_request or request;
@@ -1340,8 +1340,8 @@ local function WUMFRFR_fake_script() -- NovaArcade.LocalScript
 	})
 	
 end
-coroutine.wrap(WUMFRFR_fake_script)()
-local function QEJMPHD_fake_script() -- ui.LocalScript 
+coroutine.wrap(YDPRLI_fake_script)()
+local function VBJC_fake_script() -- ui.LocalScript 
 	local script = Instance.new('LocalScript', ui)
 
 	local MAINFRAME = script.Parent
@@ -1360,8 +1360,8 @@ local function QEJMPHD_fake_script() -- ui.LocalScript
 	
 	
 end
-coroutine.wrap(QEJMPHD_fake_script)()
-local function KCNYMJJ_fake_script() -- Tab1.LocalScript 
+coroutine.wrap(VBJC_fake_script)()
+local function WVZB_fake_script() -- Tab1.LocalScript 
 	local script = Instance.new('LocalScript', Tab1)
 
 	
@@ -1372,8 +1372,8 @@ local function KCNYMJJ_fake_script() -- Tab1.LocalScript
 	
 	end)
 end
-coroutine.wrap(KCNYMJJ_fake_script)()
-local function PQQG_fake_script() -- Tab3.LocalScript 
+coroutine.wrap(WVZB_fake_script)()
+local function YHRU_fake_script() -- Tab3.LocalScript 
 	local script = Instance.new('LocalScript', Tab3)
 
 	
@@ -1384,8 +1384,8 @@ local function PQQG_fake_script() -- Tab3.LocalScript
 	
 	end)
 end
-coroutine.wrap(PQQG_fake_script)()
-local function WERFAVO_fake_script() -- Tab2.LocalScript 
+coroutine.wrap(YHRU_fake_script)()
+local function YQOW_fake_script() -- Tab2.LocalScript 
 	local script = Instance.new('LocalScript', Tab2)
 
 	
@@ -1396,24 +1396,24 @@ local function WERFAVO_fake_script() -- Tab2.LocalScript
 	end)
 	
 end
-coroutine.wrap(WERFAVO_fake_script)()
-local function FJQSGHH_fake_script() -- InfiniteStam.Obfuscated-LocalScript 
+coroutine.wrap(YQOW_fake_script)()
+local function UFXXB_fake_script() -- InfiniteStam.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', InfiniteStam)
 
 	
 	
 	local Players = game:GetService("Players") local player = Players.LocalPlayer local Toggle  local loopActive = false local staminaValue = nil   local function findStamina() local playerValues = player:FindFirstChild("Values") if playerValues then staminaValue = playerValues:FindFirstChild("Stamina") or playerValues:FindFirstChild("MaxStamina") if staminaValue then return staminaValue end end if player.Character then local charValues = player.Character:FindFirstChild("Values") if charValues then staminaValue = charValues:FindFirstChild("Stamina") or charValues:FindFirstChild("MaxStamina") end end return staminaValue end  local function enforceStamina() while loopActive and task.wait() do if not staminaValue or not staminaValue.Parent then staminaValue = findStamina() end  if staminaValue then if staminaValue:IsA("BoolValue") then staminaValue.Value = true elseif (staminaValue:IsA("IntValue") or staminaValue:IsA("NumberValue")) then staminaValue.Value = 1  end end end end  local function startStaminaEnforcement() coroutine.wrap(function() enforceStamina() end)() end  player.CharacterAdded:Connect(function() if Toggle then staminaValue = findStamina() end end)  if Toggle then print("working") startStaminaEnforcement() end   script.Parent.MouseButton1Click:Connect(function() Toggle = not Toggle loopActive = Toggle  if Toggle then startStaminaEnforcement() script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74)  else script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15)  end end)  
 end
-coroutine.wrap(FJQSGHH_fake_script)()
-local function VEHHBV_fake_script() -- AutoSprint.Obfuscated-LocalScript 
+coroutine.wrap(UFXXB_fake_script)()
+local function VKWZ_fake_script() -- AutoSprint.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoSprint)
 
 	
 	
 	local sprintEvent = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Sprint") local Toggle = false  script.Parent.MouseButton1Click:Connect(function() Toggle = not Toggle  if Toggle then  script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74)  while Toggle do sprintEvent:FireServer(true) task.wait()  end else script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15)  sprintEvent:FireServer(false)  end end) 
 end
-coroutine.wrap(VEHHBV_fake_script)()
-local function SBCIJN_fake_script() -- AntiFling.Obfuscated-LocalScript 
+coroutine.wrap(VKWZ_fake_script)()
+local function LOWWMA_fake_script() -- AntiFling.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AntiFling)
 
 	--[[
@@ -1425,15 +1425,15 @@ local function SBCIJN_fake_script() -- AntiFling.Obfuscated-LocalScript
 	
 	local Services = setmetatable({}, {__index = function(Self, Index) local NewService = game.GetService(game, Index) if NewService then Self[Index] = NewService end return NewService end})   local LocalPlayer = Services.Players.LocalPlayer   local antifling = false local Toggle = false local Parent = script.Parent.Parent  local function PlayerAdded(Player) local Detected = false local Character; local PrimaryPart;  local function CharacterAdded(NewCharacter) Character = NewCharacter repeat wait() PrimaryPart = NewCharacter:FindFirstChild("HumanoidRootPart") until PrimaryPart Detected = false end  CharacterAdded(Player.Character or Player.CharacterAdded:Wait()) Player.CharacterAdded:Connect(CharacterAdded) Services.RunService.Heartbeat:Connect(function() if Toggle and (Character and Character:IsDescendantOf(workspace)) and (PrimaryPart and PrimaryPart:IsDescendantOf(Character)) then if PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 or PrimaryPart.AssemblyLinearVelocity.Magnitude > 100 then Detected = true for i,v in ipairs(Character:GetDescendants()) do if v:IsA("BasePart") then v.CanCollide = false v.AssemblyAngularVelocity = Vector3.new(0, 0, 0) v.AssemblyLinearVelocity = Vector3.new(0, 0, 0) v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0) end end  PrimaryPart.CanCollide = false PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0) PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0) PrimaryPart.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0) end end end) end  for i,v in ipairs(Services.Players:GetPlayers()) do if v ~= LocalPlayer then PlayerAdded(v) end end Services.Players.PlayerAdded:Connect(PlayerAdded)  local LastPosition = nil Services.RunService.Heartbeat:Connect(function() pcall(function() local PrimaryPart = LocalPlayer.Character.PrimaryPart if Toggle and (PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250) then PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0) PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0) PrimaryPart.CFrame = LastPosition elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then LastPosition = PrimaryPart.CFrame end end) end)  script.Parent.MouseButton1Click:connect(function() if not Toggle then Toggle = true if Toggle == true then  antifling = true end script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74) elseif Toggle then Toggle = false if Toggle == false then antifling = false end script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15) end end)   
 end
-coroutine.wrap(SBCIJN_fake_script)()
-local function LBKFXPA_fake_script() -- ControllerAutoGreen.Obfuscated-LocalScript 
+coroutine.wrap(LOWWMA_fake_script)()
+local function JFIS_fake_script() -- ControllerAutoGreen.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', ControllerAutoGreen)
 
 	
 	local Toggle = false local Parent = script.Parent.Parent  local autogreen = false local UIS = game:GetService("UserInputService")  script.Parent.MouseButton1Click:connect(function() if not Toggle then Toggle = true autogreen = true script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74) else Toggle = false autogreen = false script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15) end end)  UIS.InputBegan:Connect(function(input, gameProcessedEvent) if gameProcessedEvent then return end if input.KeyCode == Enum.KeyCode.DPadUp then if Toggle then local meter = Parent:FindFirstChild("Meter") if meter then meter.Enabled = true end game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(true, 100) game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, true) else game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, false) end end end)  UIS.InputEnded:Connect(function(input, gameProcessedEvent) if gameProcessedEvent then return end if input.KeyCode == Enum.KeyCode.ButtonB then game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, false) end end)   
 end
-coroutine.wrap(LBKFXPA_fake_script)()
-local function NIADXK_fake_script() -- AutoGreen.Obfuscated-LocalScript 
+coroutine.wrap(JFIS_fake_script)()
+local function GRAN_fake_script() -- AutoGreen.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGreen)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1448,134 +1448,135 @@ local function NIADXK_fake_script() -- AutoGreen.Obfuscated-LocalScript
 	local currentHotkey = nil -- Stores the Enum.KeyCode
 	
 	if not TextBox then
-	    warn("AutoGreen Script: Could not find TextBox child of Button!")
-	    return -- Stop script if TextBox is missing
+		warn("AutoGreen Script: Could not find TextBox child of Button!")
+		return -- Stop script if TextBox is missing
 	end
 	if not ShootEvent then
-	    warn("AutoGreen Script: Could not find 'Shoot' RemoteEvent in ReplicatedStorage!")
+		warn("AutoGreen Script: Could not find 'Shoot' RemoteEvent in ReplicatedStorage!")
 	end
 	
 	local function updateTextBoxState()
-	    if not TextBox then return end 
+		if not TextBox then return end 
 	
-	    local newPlaceholderText = ""
-	    local newEditableState = false
+		local newPlaceholderText = ""
+		local newEditableState = false
 	
-	    if isAutoGreenFeatureEnabled then
-	        newPlaceholderText = currentHotkey and ("Hotkey: " .. currentHotkey.Name) or "Enter Hotkey..."
-	        newEditableState = true
-	    else
-	        newPlaceholderText = "Feature Disabled"
-	        newEditableState = false
-	        TextBox.Text = "" -- Clear any text if disabled
-	    end
+		if isAutoGreenFeatureEnabled then
+			newPlaceholderText = currentHotkey and ("Hotkey: " .. currentHotkey.Name) or "Enter Hotkey..."
+			newEditableState = true
+		else
+			newPlaceholderText = "Feature Disabled"
+			newEditableState = false
+			TextBox.Text = "" -- Clear any text if disabled
+		end
 	
-	    TextBox.PlaceholderText = newPlaceholderText
-	    TextBox.TextEditable = newEditableState
+		TextBox.PlaceholderText = newPlaceholderText
+		TextBox.TextEditable = newEditableState
+	end
+	
+	-- Helper function to fire the shooting event sequence
+	local function fireShootSequence()
+		if ShootEvent then
+			ShootEvent:FireServer(true, 100)
+			task.wait(0.01) 
+			ShootEvent:FireServer(false, -0.99, true)
+		else
+			warn("Shoot RemoteEvent not found!")
+		end
 	end
 	
 	-- Function to process and update the hotkey from TextBox input
 	local function updateHotkey()
-	    if not TextBox or not isAutoGreenFeatureEnabled then return end -- Only process if enabled and TextBox exists
+		if not TextBox or not isAutoGreenFeatureEnabled then return end -- Only process if enabled and TextBox exists
 	
-	    local text = TextBox.Text
-	    if text == "" then
-	        -- If text is cleared, just update the state (placeholder might change)
-	        updateTextBoxState()
-	        return
-	    end
+		local text = TextBox.Text
+		if text == "" then
+			updateTextBoxState()
+			return
+		end
 	
-	    local success, keyCodeEnum = pcall(function()
-	        local correctedText = text:gsub("^LeftCtrl$", "LeftControl"):gsub("^RightCtrl$", "RightControl")
-	                               :gsub("^LeftShift$", "LeftShift"):gsub("^RightShift$", "RightShift")
-	                               :gsub("^LeftAlt$", "LeftAlt"):gsub("^RightAlt$", "RightAlt")
-	                               :gsub("^PageUp$", "PageUp"):gsub("^PageDown$", "PageDown")
-	                               :gsub("^CapsLock$", "CapsLock")
-	                               :gsub("%s+", "") -- Remove spaces
-	                               :gsub("^(%l)", string.upper) -- Capitalize first letter if needed
-	        return Enum.KeyCode[correctedText]
-	    end)
+		local success, keyCodeEnum = pcall(function()
+			local correctedText = text:gsub("^LeftCtrl$", "LeftControl"):gsub("^RightCtrl$", "RightControl")
+				:gsub("^LeftShift$", "LeftShift"):gsub("^RightShift$", "RightShift")
+				:gsub("^LeftAlt$", "LeftAlt"):gsub("^RightAlt$", "RightAlt")
+				:gsub("^PageUp$", "PageUp"):gsub("^PageDown$", "PageDown")
+				:gsub("^CapsLock$", "CapsLock")
+				:gsub("%s+", "") -- Remove spaces
+				:gsub("^(%l)", string.upper) -- Capitalize first letter if needed
+			return Enum.KeyCode[correctedText]
+		end)
 	
-	    if success and typeof(keyCodeEnum) == "EnumItem" then
-	        currentHotkey = keyCodeEnum
-	        print("AutoGreen hotkey set to:", currentHotkey.Name)
-	    else
-	        TextBox.PlaceholderText = "Invalid KeyCode!" -- Temporarily show error
-	        currentHotkey = nil -- Clear invalid hotkey
-	        print("Invalid KeyCode entered:", text)
-	        -- After a short delay, reset the placeholder based on the actual state
-	        task.wait(1.5)
-	    end
+		if success and typeof(keyCodeEnum) == "EnumItem" then
+			currentHotkey = keyCodeEnum
+			print("AutoGreen hotkey set to:", currentHotkey.Name)
+		else
+			TextBox.PlaceholderText = "Invalid KeyCode!" -- Temporarily show error
+			currentHotkey = nil -- Clear invalid hotkey
+			print("Invalid KeyCode entered:", text)
+			task.wait(1.5)
+		end
 	
-	    TextBox.Text = "" 
-	    updateTextBoxState() 
+		TextBox.Text = "" 
+		updateTextBoxState() 
 	end
 	
+	-- Click connection updated to toggle AND fire if enabled
 	Button.MouseButton1Click:Connect(function()
-	    isAutoGreenFeatureEnabled = not isAutoGreenFeatureEnabled -- Flip the toggle state
+		isAutoGreenFeatureEnabled = not isAutoGreenFeatureEnabled -- Flip the toggle state
 	
-	    if isAutoGreenFeatureEnabled then
+		if isAutoGreenFeatureEnabled then
 			Button.BackgroundColor3 = Color3.fromRGB(74, 74, 74)
-	    else
-	        Button.BackgroundColor3 = Color3.fromRGB(15, 15, 15) 
-	        currentHotkey = nil 
-	    end
+			print("AutoGreen Feature Toggled: Enabled. Firing Shoot event from click.")
+			fireShootSequence() -- Fires the remote immediately upon enabling via click
+		else
+			Button.BackgroundColor3 = Color3.fromRGB(15, 15, 15) 
+			currentHotkey = nil 
+			print("AutoGreen Feature Toggled: Disabled.")
+		end
 	
-	    print("AutoGreen Feature Toggled:", isAutoGreenFeatureEnabled)
-	    updateTextBoxState() -- Update the TextBox based on the new state
+		updateTextBoxState() -- Update the TextBox based on the new state
 	end)
 	
 	-- Connect to TextBox FocusLost event
 	if TextBox then
-	    TextBox.FocusLost:Connect(function(enterPressed)
-	        if isAutoGreenFeatureEnabled and enterPressed then
-	            updateHotkey()
-	        elseif not isAutoGreenFeatureEnabled then
-	             TextBox.Text = "" -- Clear text if focus lost while disabled
-	             updateTextBoxState() -- Ensure placeholder is "Feature Disabled"
-	        elseif isAutoGreenFeatureEnabled and not enterPressed then
-	            -- If focus lost without Enter, reset placeholder if text is empty
-	            if TextBox.Text == "" then
-	                 updateTextBoxState() -- Resets placeholder correctly
-	            end
-	             -- If text is not empty, leave it for the user
-	        end
-	    end)
-	    TextBox.TextSize = 12
-	    TextBox.ClearTextOnFocus = false -- Keep text while editing
+		TextBox.FocusLost:Connect(function(enterPressed)
+			if isAutoGreenFeatureEnabled and enterPressed then
+				updateHotkey()
+			elseif not isAutoGreenFeatureEnabled then
+				TextBox.Text = "" 
+				updateTextBoxState() 
+			elseif isAutoGreenFeatureEnabled and not enterPressed then
+				if TextBox.Text == "" then
+					updateTextBoxState() 
+				end
+			end
+		end)
+		TextBox.TextSize = 12
+		TextBox.ClearTextOnFocus = false 
 	end
 	
 	-- Connect to InputBegan for hotkey detection
 	UserInputService.InputBegan:Connect(function(input, gameProcessedEvent)
-	    -- Ignore if feature is disabled, no hotkey is set, or input was processed by game
-	    if not isAutoGreenFeatureEnabled or not currentHotkey or gameProcessedEvent then
-	        return
-	    end
+		if not isAutoGreenFeatureEnabled or not currentHotkey or gameProcessedEvent then
+			return
+		end
 	
-	    if input.UserInputType == Enum.UserInputType.Keyboard then
-	        if input.KeyCode == currentHotkey then
-	            if ShootEvent then
-	                print("Hotkey (".. currentHotkey.Name ..") pressed, firing Shoot event")
-	                ShootEvent:FireServer(true, 100)
-	                task.wait(0.01) 
-	                ShootEvent:FireServer(false, -0.99, true)
-	            else
-	                warn("Hotkey pressed, but Shoot RemoteEvent not found!")
-	            end
-	        end
-	    end
+		if input.UserInputType == Enum.UserInputType.Keyboard then
+			if input.KeyCode == currentHotkey then
+				print("Hotkey (".. currentHotkey.Name ..") pressed, firing Shoot event")
+				fireShootSequence()
+			end
+		end
 	end)
 	
 	-- Initial setup
-	Button.BackgroundColor3 = Color3.fromRGB(15, 15, 15) -- Set initial inactive color
-	updateTextBoxState() -- Set initial TextBox state
-	
-	print("Combined AutoGreen script loaded.")
+	Button.BackgroundColor3 = Color3.fromRGB(15, 15, 15) 
+	updateTextBoxState() 
 	
 	
 end
-coroutine.wrap(NIADXK_fake_script)()
-local function DILA_fake_script() -- AutoScreen.LocalScript 
+coroutine.wrap(GRAN_fake_script)()
+local function NUECC_fake_script() -- AutoScreen.LocalScript 
 	local script = Instance.new('LocalScript', AutoScreen)
 
 	local Toggle = false
@@ -1617,8 +1618,8 @@ local function DILA_fake_script() -- AutoScreen.LocalScript
 	end)
 	
 end
-coroutine.wrap(DILA_fake_script)()
-local function NIHGPAQ_fake_script() -- ForceReset.LocalScript 
+coroutine.wrap(NUECC_fake_script)()
+local function ZBCSA_fake_script() -- ForceReset.LocalScript 
 	local script = Instance.new('LocalScript', ForceReset)
 
 	local Players = game:GetService("Players")
@@ -1649,8 +1650,8 @@ local function NIHGPAQ_fake_script() -- ForceReset.LocalScript
 	
 	
 end
-coroutine.wrap(NIHGPAQ_fake_script)()
-local function HMYLU_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ZBCSA_fake_script)()
+local function PQLXBJ_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1660,8 +1661,8 @@ local function HMYLU_fake_script() -- TextButton.LocalScript
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId) 
 	end)
 end
-coroutine.wrap(HMYLU_fake_script)()
-local function HYCV_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(PQLXBJ_fake_script)()
+local function LPVB_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local Players = game:GetService("Players")
@@ -1684,8 +1685,8 @@ local function HYCV_fake_script() -- TextButton_2.LocalScript
 	
 	
 end
-coroutine.wrap(HYCV_fake_script)()
-local function TYTA_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(LPVB_fake_script)()
+local function CUPTU_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1693,8 +1694,8 @@ local function TYTA_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(TYTA_fake_script)()
-local function FEAY_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(CUPTU_fake_script)()
+local function GQTBE_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1747,16 +1748,16 @@ local function FEAY_fake_script() -- TextButton_4.LocalScript
 	
 	
 end
-coroutine.wrap(FEAY_fake_script)()
-local function MQFXAIR_fake_script() -- AntiAnkles.Obfuscated-LocalScript 
+coroutine.wrap(GQTBE_fake_script)()
+local function DYLKK_fake_script() -- AntiAnkles.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AntiAnkles)
 
 	
 	
 	local player = game:GetService("Players").LocalPlayer local anklesValue = player:WaitForChild("Values"):WaitForChild("Ankles") local char = player.Character or player.CharacterAdded:Wait() local hrp = char:WaitForChild("HumanoidRootPart") local humanoid = char:WaitForChild("Humanoid")  local ankleBreakerId = "rbxassetid://89008535250310"  script.Parent.MouseButton1Click:Connect(function()     local connection     connection = anklesValue:GetPropertyChangedSignal("Value"):Connect(function()         if anklesValue.Value == true then             local bv = hrp:FindFirstChildOfClass("BodyVelocity")             if bv then                 repeat bv.MaxForce = Vector3.new(0, 0, 0) task.wait() until bv.MaxForce == Vector3.new(0, 0, 0)             end             if humanoid and humanoid:FindFirstChildOfClass("Animator") then                 local animator = humanoid:FindFirstChildOfClass("Animator")                 local tracks = animator:GetPlayingAnimationTracks()                 for _, track in ipairs(tracks) do                     if track.Animation and track.Animation.AnimationId == ankleBreakerId then                         track:Stop()                     end                 end             end         end     end) end)   
 end
-coroutine.wrap(MQFXAIR_fake_script)()
-local function NUIS_fake_script() -- AutoAnkles.Obfuscated--LocalScript 
+coroutine.wrap(DYLKK_fake_script)()
+local function UNQXI_fake_script() -- AutoAnkles.Obfuscated--LocalScript 
 	local script = Instance.new('LocalScript', AutoAnkles)
 
 	local Players = game:GetService("Players")
@@ -1838,8 +1839,8 @@ local function NUIS_fake_script() -- AutoAnkles.Obfuscated--LocalScript
 	
 	
 end
-coroutine.wrap(NUIS_fake_script)()
-local function ZMKHTF_fake_script() -- AutoGreen_2.Obfuscated-LocalScript 
+coroutine.wrap(UNQXI_fake_script)()
+local function KXOJ_fake_script() -- AutoGreen_2.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGreen_2)
 
 	local Toggle = false
@@ -1896,8 +1897,8 @@ local function ZMKHTF_fake_script() -- AutoGreen_2.Obfuscated-LocalScript
 		end
 	end)
 end
-coroutine.wrap(ZMKHTF_fake_script)()
-local function UVJW_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScript 
+coroutine.wrap(KXOJ_fake_script)()
+local function UAUZMEF_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', ControllerAutoGreen_2)
 
 	local Toggle = false
@@ -1975,8 +1976,8 @@ local function UVJW_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScrip
 		end
 	end)
 end
-coroutine.wrap(UVJW_fake_script)()
-local function SFPDEHB_fake_script() -- AutoGuard.Obfuscated-LocalScript 
+coroutine.wrap(UAUZMEF_fake_script)()
+local function JDQK_fake_script() -- AutoGuard.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGuard)
 
 	-- Services
@@ -2065,8 +2066,8 @@ local function SFPDEHB_fake_script() -- AutoGuard.Obfuscated-LocalScript
 	end)
 	
 end
-coroutine.wrap(SFPDEHB_fake_script)()
-local function HBYTIIO_fake_script() -- PickUpRange.Obfuscated--LocalScript 
+coroutine.wrap(JDQK_fake_script)()
+local function QRCLB_fake_script() -- PickUpRange.Obfuscated--LocalScript 
 	local script = Instance.new('LocalScript', PickUpRange)
 
 	local Players = game:GetService("Players")
@@ -2300,8 +2301,8 @@ local function HBYTIIO_fake_script() -- PickUpRange.Obfuscated--LocalScript
 	UpdatePickupState()
 	debugPrint("Script initialized")
 end
-coroutine.wrap(HBYTIIO_fake_script)()
-local function XAWUJOR_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(QRCLB_fake_script)()
+local function JHCBR_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local Players = game:GetService("Players")
@@ -2346,8 +2347,8 @@ local function XAWUJOR_fake_script() -- TextBox_2.LocalScript
 	
 	
 end
-coroutine.wrap(XAWUJOR_fake_script)()
-local function NVNX_fake_script() -- Noclip.Obfuscated-LocalScript 
+coroutine.wrap(JHCBR_fake_script)()
+local function VXADUG_fake_script() -- Noclip.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', Noclip)
 
 	local RunService = game:GetService("RunService")
@@ -2433,8 +2434,8 @@ local function NVNX_fake_script() -- Noclip.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(NVNX_fake_script)()
-local function IVMQTH_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript 
+coroutine.wrap(VXADUG_fake_script)()
+local function NDZNFAV_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', TeleportFakeLag)
 
 	local Players = game:GetService("Players")
@@ -2497,8 +2498,8 @@ local function IVMQTH_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(IVMQTH_fake_script)()
-local function RBWVJ_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript 
+coroutine.wrap(NDZNFAV_fake_script)()
+local function ODWJUG_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', WalkSpeedChanger)
 
 	-- Services
@@ -2685,4 +2686,4 @@ local function RBWVJ_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(RBWVJ_fake_script)()
+coroutine.wrap(ODWJUG_fake_script)()
