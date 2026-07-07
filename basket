@@ -1,4 +1,3 @@
-
 -- imie his Gui to Lua
 -- Version: 1
 
@@ -29,155 +28,136 @@ local UIGradient_7 = Instance.new("UIGradient")
 local UIGradient_8 = Instance.new("UIGradient")
 local UIStroke_9 = Instance.new("UIStroke")
 local UIStroke_10 = Instance.new("UIStroke")
-local Tab4 = Instance.new("TextButton")
-local UIGradient_9 = Instance.new("UIGradient")
-local UIGradient_10 = Instance.new("UIGradient")
-local UIStroke_11 = Instance.new("UIStroke")
-local UIStroke_12 = Instance.new("UIStroke")
 local TextLabel = Instance.new("TextLabel")
-local UIStroke_13 = Instance.new("UIStroke")
+local UIStroke_11 = Instance.new("UIStroke")
 local TweaksFrame = Instance.new("Frame")
-local UIStroke_14 = Instance.new("UIStroke")
+local UIStroke_12 = Instance.new("UIStroke")
 local topframe = Instance.new("Frame")
 local InfiniteStam = Instance.new("TextButton")
-local UIGradient_11 = Instance.new("UIGradient")
-local UIStroke_15 = Instance.new("UIStroke")
+local UIGradient_9 = Instance.new("UIGradient")
+local UIStroke_13 = Instance.new("UIStroke")
 local UICorner = Instance.new("UICorner")
 local TextLabel_2 = Instance.new("TextLabel")
 local AutoSprint = Instance.new("TextButton")
-local UIGradient_12 = Instance.new("UIGradient")
-local UIStroke_16 = Instance.new("UIStroke")
+local UIGradient_10 = Instance.new("UIGradient")
+local UIStroke_14 = Instance.new("UIStroke")
 local UICorner_2 = Instance.new("UICorner")
 local TextLabel_3 = Instance.new("TextLabel")
 local LegitPlayerFrame = Instance.new("Frame")
-local UIStroke_17 = Instance.new("UIStroke")
+local UIStroke_15 = Instance.new("UIStroke")
 local topframe_2 = Instance.new("Frame")
 local TextLabel_4 = Instance.new("TextLabel")
-local UIStroke_18 = Instance.new("UIStroke")
+local UIStroke_16 = Instance.new("UIStroke")
 local AntiFling = Instance.new("TextButton")
-local UIGradient_13 = Instance.new("UIGradient")
-local UIStroke_19 = Instance.new("UIStroke")
+local UIGradient_11 = Instance.new("UIGradient")
+local UIStroke_17 = Instance.new("UIStroke")
 local UICorner_3 = Instance.new("UICorner")
 local TextLabel_5 = Instance.new("TextLabel")
 local ControllerAutoGreen = Instance.new("TextButton")
-local UIGradient_14 = Instance.new("UIGradient")
-local UIStroke_20 = Instance.new("UIStroke")
+local UIGradient_12 = Instance.new("UIGradient")
+local UIStroke_18 = Instance.new("UIStroke")
 local UICorner_4 = Instance.new("UICorner")
 local TextLabel_6 = Instance.new("TextLabel")
 local AutoGreen = Instance.new("TextButton")
-local UIStroke_21 = Instance.new("UIStroke")
-local UIGradient_15 = Instance.new("UIGradient")
+local UIStroke_19 = Instance.new("UIStroke")
+local UIGradient_13 = Instance.new("UIGradient")
 local UICorner_5 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local TextBox = Instance.new("TextBox")
 local AutoScreen = Instance.new("TextButton")
-local UIGradient_16 = Instance.new("UIGradient")
-local UIStroke_22 = Instance.new("UIStroke")
+local UIGradient_14 = Instance.new("UIGradient")
+local UIStroke_20 = Instance.new("UIStroke")
 local UICorner_6 = Instance.new("UICorner")
 local TextLabel_8 = Instance.new("TextLabel")
 local TextLabel_9 = Instance.new("TextLabel")
 local SettingsFrame = Instance.new("Frame")
-local UIStroke_23 = Instance.new("UIStroke")
+local UIStroke_21 = Instance.new("UIStroke")
 local topframe_3 = Instance.new("Frame")
 local CharacterSettingsFrame = Instance.new("Frame")
-local UIStroke_24 = Instance.new("UIStroke")
+local UIStroke_22 = Instance.new("UIStroke")
 local topframe_4 = Instance.new("Frame")
 local TextLabel_10 = Instance.new("TextLabel")
-local UIStroke_25 = Instance.new("UIStroke")
+local UIStroke_23 = Instance.new("UIStroke")
 local ForceReset = Instance.new("TextButton")
-local UIGradient_17 = Instance.new("UIGradient")
-local UIStroke_26 = Instance.new("UIStroke")
+local UIGradient_15 = Instance.new("UIGradient")
+local UIStroke_24 = Instance.new("UIStroke")
 local UICorner_7 = Instance.new("UICorner")
 local TextButton = Instance.new("TextButton")
-local UIGradient_18 = Instance.new("UIGradient")
-local UIStroke_27 = Instance.new("UIStroke")
+local UIGradient_16 = Instance.new("UIGradient")
+local UIStroke_25 = Instance.new("UIStroke")
 local UICorner_8 = Instance.new("UICorner")
 local TextButton_2 = Instance.new("TextButton")
-local UIGradient_19 = Instance.new("UIGradient")
-local UIStroke_28 = Instance.new("UIStroke")
+local UIGradient_17 = Instance.new("UIGradient")
+local UIStroke_26 = Instance.new("UIStroke")
 local UICorner_9 = Instance.new("UICorner")
 local TextButton_3 = Instance.new("TextButton")
-local UIGradient_20 = Instance.new("UIGradient")
-local UIStroke_29 = Instance.new("UIStroke")
+local UIGradient_18 = Instance.new("UIGradient")
+local UIStroke_27 = Instance.new("UIStroke")
 local UICorner_10 = Instance.new("UICorner")
 local TextLabel_11 = Instance.new("TextLabel")
 local TextLabel_12 = Instance.new("TextLabel")
-local UIStroke_30 = Instance.new("UIStroke")
+local UIStroke_28 = Instance.new("UIStroke")
 local TextButton_4 = Instance.new("TextButton")
-local UIGradient_21 = Instance.new("UIGradient")
-local UIStroke_31 = Instance.new("UIStroke")
+local UIGradient_19 = Instance.new("UIGradient")
+local UIStroke_29 = Instance.new("UIStroke")
 local UICorner_11 = Instance.new("UICorner")
 local BlatantFrame = Instance.new("Frame")
 local BlantantFrame = Instance.new("Frame")
-local UIStroke_32 = Instance.new("UIStroke")
+local UIStroke_30 = Instance.new("UIStroke")
 local topframe_5 = Instance.new("Frame")
 local TextLabel_13 = Instance.new("TextLabel")
-local UIStroke_33 = Instance.new("UIStroke")
+local UIStroke_31 = Instance.new("UIStroke")
 local AntiAnkles = Instance.new("TextButton")
 local TextLabel_14 = Instance.new("TextLabel")
-local UIStroke_34 = Instance.new("UIStroke")
+local UIStroke_32 = Instance.new("UIStroke")
 local AutoAnkles = Instance.new("TextButton")
-local UIGradient_22 = Instance.new("UIGradient")
-local UIStroke_35 = Instance.new("UIStroke")
+local UIGradient_20 = Instance.new("UIGradient")
+local UIStroke_33 = Instance.new("UIStroke")
 local UICorner_12 = Instance.new("UICorner")
 local TextLabel_15 = Instance.new("TextLabel")
 local AutoGreen_2 = Instance.new("TextButton")
-local UIStroke_36 = Instance.new("UIStroke")
-local UIGradient_23 = Instance.new("UIGradient")
+local UIStroke_34 = Instance.new("UIStroke")
+local UIGradient_21 = Instance.new("UIGradient")
 local UICorner_13 = Instance.new("UICorner")
 local TextLabel_16 = Instance.new("TextLabel")
 local ControllerAutoGreen_2 = Instance.new("TextButton")
-local UIGradient_24 = Instance.new("UIGradient")
-local UIStroke_37 = Instance.new("UIStroke")
+local UIGradient_22 = Instance.new("UIGradient")
+local UIStroke_35 = Instance.new("UIStroke")
 local UICorner_14 = Instance.new("UICorner")
 local TextLabel_17 = Instance.new("TextLabel")
 local AutoGuard = Instance.new("TextButton")
-local UIGradient_25 = Instance.new("UIGradient")
-local UIStroke_38 = Instance.new("UIStroke")
+local UIGradient_23 = Instance.new("UIGradient")
+local UIStroke_36 = Instance.new("UIStroke")
 local UICorner_15 = Instance.new("UICorner")
 local TextLabel_18 = Instance.new("TextLabel")
 local PickUpRange = Instance.new("TextButton")
-local UIGradient_26 = Instance.new("UIGradient")
-local UIStroke_39 = Instance.new("UIStroke")
+local UIGradient_24 = Instance.new("UIGradient")
+local UIStroke_37 = Instance.new("UIStroke")
 local UICorner_16 = Instance.new("UICorner")
 local TextLabel_19 = Instance.new("TextLabel")
 local PlayerBlantantFrame = Instance.new("Frame")
-local UIStroke_40 = Instance.new("UIStroke")
+local UIStroke_38 = Instance.new("UIStroke")
 local topframe_6 = Instance.new("Frame")
 local TextLabel_20 = Instance.new("TextLabel")
-local UIStroke_41 = Instance.new("UIStroke")
+local UIStroke_39 = Instance.new("UIStroke")
 local SpinBot = Instance.new("TextLabel")
 local TextBox_2 = Instance.new("TextBox")
 local Noclip = Instance.new("TextButton")
-local UIGradient_27 = Instance.new("UIGradient")
-local UIStroke_42 = Instance.new("UIStroke")
+local UIGradient_25 = Instance.new("UIGradient")
+local UIStroke_40 = Instance.new("UIStroke")
 local UICorner_17 = Instance.new("UICorner")
 local TextLabel_21 = Instance.new("TextLabel")
 local TeleportFakeLag = Instance.new("TextButton")
-local UIGradient_28 = Instance.new("UIGradient")
-local UIStroke_43 = Instance.new("UIStroke")
+local UIGradient_26 = Instance.new("UIGradient")
+local UIStroke_41 = Instance.new("UIStroke")
 local UICorner_18 = Instance.new("UICorner")
 local TextLabel_22 = Instance.new("TextLabel")
 local WalkSpeedChanger = Instance.new("TextButton")
-local UIGradient_29 = Instance.new("UIGradient")
-local UIStroke_44 = Instance.new("UIStroke")
+local UIGradient_27 = Instance.new("UIGradient")
+local UIStroke_42 = Instance.new("UIStroke")
 local UICorner_19 = Instance.new("UICorner")
 local TextLabel_23 = Instance.new("TextLabel")
 local TextBox_3 = Instance.new("TextBox")
-local AutoFarmFrame = Instance.new("Frame")
-local UIStroke_45 = Instance.new("UIStroke")
-local topframe_7 = Instance.new("Frame")
-local TextLabel_24 = Instance.new("TextLabel")
-local Court1 = Instance.new("TextButton")
-local UIGradient_30 = Instance.new("UIGradient")
-local UIStroke_46 = Instance.new("UIStroke")
-local UICorner_20 = Instance.new("UICorner")
-local TextLabel_25 = Instance.new("TextLabel")
-local Court2 = Instance.new("TextButton")
-local UIGradient_31 = Instance.new("UIGradient")
-local UIStroke_47 = Instance.new("UIStroke")
-local UICorner_21 = Instance.new("UICorner")
-local TextLabel_26 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -239,7 +219,7 @@ Tab1.Parent = tabframe
 Tab1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Tab1.BorderColor3 = Color3.fromRGB(16, 16, 16)
 Tab1.BorderSizePixel = 0
-Tab1.Position = UDim2.new(-0.0239485782, 0, 0.0399999991, 0)
+Tab1.Position = UDim2.new(-0.0159164481, 0, 0.0399999991, 0)
 Tab1.Size = UDim2.new(0, 133, 0, 24)
 Tab1.Font = Enum.Font.SourceSans
 Tab1.Text = "MAIN"
@@ -270,7 +250,7 @@ Tab3.Parent = tabframe
 Tab3.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Tab3.BorderColor3 = Color3.fromRGB(16, 16, 16)
 Tab3.BorderSizePixel = 0
-Tab3.Position = UDim2.new(0.542316496, 0, 0.0399999991, 0)
+Tab3.Position = UDim2.new(0.654766262, 0, 0.0399999991, 0)
 Tab3.Size = UDim2.new(0, 124, 0, 24)
 Tab3.Font = Enum.Font.SourceSans
 Tab3.Text = "SETTINGS"
@@ -301,7 +281,7 @@ Tab2.Parent = tabframe
 Tab2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 Tab2.BorderColor3 = Color3.fromRGB(16, 16, 16)
 Tab2.BorderSizePixel = 0
-Tab2.Position = UDim2.new(0.243119702, 0, 0.0399999991, 0)
+Tab2.Position = UDim2.new(0.307376713, 0, 0.0399999991, 0)
 Tab2.Size = UDim2.new(0, 149, 0, 24)
 Tab2.Font = Enum.Font.SourceSans
 Tab2.Text = "BLATANT"
@@ -327,37 +307,6 @@ UIStroke_10.Transparency = 0.4000000059604645
 UIStroke_10.Thickness = 0.30000001192092896
 UIStroke_10.Parent = Tab2
 
-Tab4.Name = "Tab4"
-Tab4.Parent = tabframe
-Tab4.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-Tab4.BorderColor3 = Color3.fromRGB(16, 16, 16)
-Tab4.BorderSizePixel = 0
-Tab4.Position = UDim2.new(0.760914743, 0, 0.0399999991, 0)
-Tab4.Size = UDim2.new(0, 118, 0, 24)
-Tab4.Font = Enum.Font.SourceSans
-Tab4.Text = "WORKSPACE"
-Tab4.TextColor3 = Color3.fromRGB(255, 255, 255)
-Tab4.TextSize = 14.000
-
-UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(0.92, Color3.fromRGB(221, 221, 221)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
-UIGradient_9.Rotation = 90
-UIGradient_9.Parent = Tab4
-
-UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(136, 136, 136))}
-UIGradient_10.Rotation = -80
-UIGradient_10.Parent = Tab4
-
-UIStroke_11.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_11.Color = Color3.fromRGB(22, 22, 22)
-UIStroke_11.Thickness = 0.5
-UIStroke_11.Parent = Tab4
-
-UIStroke_12.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_12.Color = Color3.fromRGB(21, 21, 21)
-UIStroke_12.Transparency = 0.4000000059604645
-UIStroke_12.Thickness = 0.30000001192092896
-UIStroke_12.Parent = Tab4
-
 TextLabel.Parent = topbar
 TextLabel.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
 TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
@@ -369,9 +318,9 @@ TextLabel.Text = "  Nova.Loader"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 20.000
 
-UIStroke_13.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_13.Color = Color3.fromRGB(13, 13, 13)
-UIStroke_13.Parent = TextLabel
+UIStroke_11.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_11.Color = Color3.fromRGB(13, 13, 13)
+UIStroke_11.Parent = TextLabel
 
 TweaksFrame.Name = "TweaksFrame"
 TweaksFrame.Parent = ui
@@ -381,8 +330,8 @@ TweaksFrame.BorderSizePixel = 2
 TweaksFrame.Position = UDim2.new(0.0200000051, 0, 0.126000002, 0)
 TweaksFrame.Size = UDim2.new(0, 241, 0, 404)
 
-UIStroke_14.Color = Color3.fromRGB(17, 17, 17)
-UIStroke_14.Parent = TweaksFrame
+UIStroke_12.Color = Color3.fromRGB(17, 17, 17)
+UIStroke_12.Parent = TweaksFrame
 
 topframe.Name = "topframe"
 topframe.Parent = TweaksFrame
@@ -405,14 +354,14 @@ InfiniteStam.TextColor3 = Color3.fromRGB(255, 255, 255)
 InfiniteStam.TextSize = 11.000
 InfiniteStam.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_11.Rotation = -90
-UIGradient_11.Parent = InfiniteStam
+UIGradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_9.Rotation = -90
+UIGradient_9.Parent = InfiniteStam
 
-UIStroke_15.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_15.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_15.Thickness = 2.299999952316284
-UIStroke_15.Parent = InfiniteStam
+UIStroke_13.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_13.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_13.Thickness = 2.299999952316284
+UIStroke_13.Parent = InfiniteStam
 
 UICorner.CornerRadius = UDim.new(0, 2)
 UICorner.Parent = InfiniteStam
@@ -443,14 +392,14 @@ AutoSprint.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoSprint.TextSize = 11.000
 AutoSprint.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_12.Rotation = -90
-UIGradient_12.Parent = AutoSprint
+UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_10.Rotation = -90
+UIGradient_10.Parent = AutoSprint
 
-UIStroke_16.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_16.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_16.Thickness = 2.299999952316284
-UIStroke_16.Parent = AutoSprint
+UIStroke_14.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_14.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_14.Thickness = 2.299999952316284
+UIStroke_14.Parent = AutoSprint
 
 UICorner_2.CornerRadius = UDim.new(0, 2)
 UICorner_2.Parent = AutoSprint
@@ -476,8 +425,8 @@ LegitPlayerFrame.BorderSizePixel = 2
 LegitPlayerFrame.Position = UDim2.new(1.19444835, 0, -0.000712355541, 0)
 LegitPlayerFrame.Size = UDim2.new(0, 241, 0, 292)
 
-UIStroke_17.Color = Color3.fromRGB(17, 17, 17)
-UIStroke_17.Parent = LegitPlayerFrame
+UIStroke_15.Color = Color3.fromRGB(17, 17, 17)
+UIStroke_15.Parent = LegitPlayerFrame
 
 topframe_2.Name = "topframe"
 topframe_2.Parent = LegitPlayerFrame
@@ -500,7 +449,7 @@ TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_18.Parent = TextLabel_4
+UIStroke_16.Parent = TextLabel_4
 
 AntiFling.Name = "AntiFling"
 AntiFling.Parent = LegitPlayerFrame
@@ -515,14 +464,14 @@ AntiFling.TextColor3 = Color3.fromRGB(255, 255, 255)
 AntiFling.TextSize = 11.000
 AntiFling.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_13.Rotation = -90
-UIGradient_13.Parent = AntiFling
+UIGradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_11.Rotation = -90
+UIGradient_11.Parent = AntiFling
 
-UIStroke_19.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_19.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_19.Thickness = 2.299999952316284
-UIStroke_19.Parent = AntiFling
+UIStroke_17.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_17.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_17.Thickness = 2.299999952316284
+UIStroke_17.Parent = AntiFling
 
 UICorner_3.CornerRadius = UDim.new(0, 2)
 UICorner_3.Parent = AntiFling
@@ -553,14 +502,14 @@ ControllerAutoGreen.TextColor3 = Color3.fromRGB(255, 255, 255)
 ControllerAutoGreen.TextSize = 11.000
 ControllerAutoGreen.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_14.Rotation = -90
-UIGradient_14.Parent = ControllerAutoGreen
+UIGradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_12.Rotation = -90
+UIGradient_12.Parent = ControllerAutoGreen
 
-UIStroke_20.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_20.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_20.Thickness = 2.299999952316284
-UIStroke_20.Parent = ControllerAutoGreen
+UIStroke_18.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_18.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_18.Thickness = 2.299999952316284
+UIStroke_18.Parent = ControllerAutoGreen
 
 UICorner_4.CornerRadius = UDim.new(0, 2)
 UICorner_4.Parent = ControllerAutoGreen
@@ -591,14 +540,14 @@ AutoGreen.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoGreen.TextSize = 11.000
 AutoGreen.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_21.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_21.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_21.Thickness = 2.299999952316284
-UIStroke_21.Parent = AutoGreen
+UIStroke_19.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_19.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_19.Thickness = 2.299999952316284
+UIStroke_19.Parent = AutoGreen
 
-UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_15.Rotation = -90
-UIGradient_15.Parent = AutoGreen
+UIGradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_13.Rotation = -90
+UIGradient_13.Parent = AutoGreen
 
 UICorner_5.CornerRadius = UDim.new(0, 2)
 UICorner_5.Parent = AutoGreen
@@ -640,14 +589,14 @@ AutoScreen.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoScreen.TextSize = 11.000
 AutoScreen.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_16.Rotation = -90
-UIGradient_16.Parent = AutoScreen
+UIGradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_14.Rotation = -90
+UIGradient_14.Parent = AutoScreen
 
-UIStroke_22.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_22.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_22.Thickness = 2.299999952316284
-UIStroke_22.Parent = AutoScreen
+UIStroke_20.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_20.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_20.Thickness = 2.299999952316284
+UIStroke_20.Parent = AutoScreen
 
 UICorner_6.CornerRadius = UDim.new(0, 2)
 UICorner_6.Parent = AutoScreen
@@ -686,8 +635,8 @@ SettingsFrame.Position = UDim2.new(0.0199999996, 0, 0.126000002, 0)
 SettingsFrame.Size = UDim2.new(0, 241, 0, 292)
 SettingsFrame.Visible = false
 
-UIStroke_23.Color = Color3.fromRGB(17, 17, 17)
-UIStroke_23.Parent = SettingsFrame
+UIStroke_21.Color = Color3.fromRGB(17, 17, 17)
+UIStroke_21.Parent = SettingsFrame
 
 topframe_3.Name = "topframe"
 topframe_3.Parent = SettingsFrame
@@ -705,8 +654,8 @@ CharacterSettingsFrame.BorderSizePixel = 2
 CharacterSettingsFrame.Position = UDim2.new(1.1864984, 0, -0.000712355541, 0)
 CharacterSettingsFrame.Size = UDim2.new(0, 241, 0, 292)
 
-UIStroke_24.Color = Color3.fromRGB(17, 17, 17)
-UIStroke_24.Parent = CharacterSettingsFrame
+UIStroke_22.Color = Color3.fromRGB(17, 17, 17)
+UIStroke_22.Parent = CharacterSettingsFrame
 
 topframe_4.Name = "topframe"
 topframe_4.Parent = CharacterSettingsFrame
@@ -729,7 +678,7 @@ TextLabel_10.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_10.TextSize = 14.000
 TextLabel_10.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_25.Parent = TextLabel_10
+UIStroke_23.Parent = TextLabel_10
 
 ForceReset.Name = "ForceReset"
 ForceReset.Parent = CharacterSettingsFrame
@@ -743,14 +692,14 @@ ForceReset.Text = "ForceReset"
 ForceReset.TextColor3 = Color3.fromRGB(255, 255, 255)
 ForceReset.TextSize = 16.000
 
-UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_17.Rotation = -90
-UIGradient_17.Parent = ForceReset
+UIGradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_15.Rotation = -90
+UIGradient_15.Parent = ForceReset
 
-UIStroke_26.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_26.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_26.Thickness = 2.299999952316284
-UIStroke_26.Parent = ForceReset
+UIStroke_24.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_24.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_24.Thickness = 2.299999952316284
+UIStroke_24.Parent = ForceReset
 
 UICorner_7.CornerRadius = UDim.new(0, 2)
 UICorner_7.Parent = ForceReset
@@ -766,14 +715,14 @@ TextButton.Text = "Rejoin"
 TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton.TextSize = 16.000
 
-UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_18.Rotation = -90
-UIGradient_18.Parent = TextButton
+UIGradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_16.Rotation = -90
+UIGradient_16.Parent = TextButton
 
-UIStroke_27.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_27.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_27.Thickness = 2.299999952316284
-UIStroke_27.Parent = TextButton
+UIStroke_25.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_25.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_25.Thickness = 2.299999952316284
+UIStroke_25.Parent = TextButton
 
 UICorner_8.CornerRadius = UDim.new(0, 2)
 UICorner_8.Parent = TextButton
@@ -789,14 +738,14 @@ TextButton_2.Text = "ExitGui"
 TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_2.TextSize = 16.000
 
-UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_19.Rotation = -90
-UIGradient_19.Parent = TextButton_2
+UIGradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_17.Rotation = -90
+UIGradient_17.Parent = TextButton_2
 
-UIStroke_28.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_28.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_28.Thickness = 2.299999952316284
-UIStroke_28.Parent = TextButton_2
+UIStroke_26.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_26.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_26.Thickness = 2.299999952316284
+UIStroke_26.Parent = TextButton_2
 
 UICorner_9.CornerRadius = UDim.new(0, 2)
 UICorner_9.Parent = TextButton_2
@@ -812,14 +761,14 @@ TextButton_3.Text = "StreakSaver"
 TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_3.TextSize = 16.000
 
-UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_20.Rotation = -90
-UIGradient_20.Parent = TextButton_3
+UIGradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_18.Rotation = -90
+UIGradient_18.Parent = TextButton_3
 
-UIStroke_29.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_29.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_29.Thickness = 2.299999952316284
-UIStroke_29.Parent = TextButton_3
+UIStroke_27.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_27.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_27.Thickness = 2.299999952316284
+UIStroke_27.Parent = TextButton_3
 
 UICorner_10.CornerRadius = UDim.new(0, 2)
 UICorner_10.Parent = TextButton_3
@@ -851,7 +800,7 @@ TextLabel_12.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_12.TextSize = 14.000
 TextLabel_12.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_30.Parent = TextLabel_12
+UIStroke_28.Parent = TextLabel_12
 
 TextButton_4.Parent = SettingsFrame
 TextButton_4.BackgroundColor3 = Color3.fromRGB(13, 13, 13)
@@ -865,14 +814,14 @@ TextButton_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextButton_4.TextSize = 14.000
 TextButton_4.TextWrapped = true
 
-UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_21.Rotation = -90
-UIGradient_21.Parent = TextButton_4
+UIGradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_19.Rotation = -90
+UIGradient_19.Parent = TextButton_4
 
-UIStroke_31.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_31.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_31.Thickness = 2.299999952316284
-UIStroke_31.Parent = TextButton_4
+UIStroke_29.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_29.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_29.Thickness = 2.299999952316284
+UIStroke_29.Parent = TextButton_4
 
 UICorner_11.CornerRadius = UDim.new(0, 2)
 UICorner_11.Parent = TextButton_4
@@ -894,8 +843,8 @@ BlantantFrame.BorderSizePixel = 2
 BlantantFrame.Position = UDim2.new(-0.000833337952, 0, -0.00188262109, 0)
 BlantantFrame.Size = UDim2.new(0, 241, 0, 292)
 
-UIStroke_32.Color = Color3.fromRGB(17, 17, 17)
-UIStroke_32.Parent = BlantantFrame
+UIStroke_30.Color = Color3.fromRGB(17, 17, 17)
+UIStroke_30.Parent = BlantantFrame
 
 topframe_5.Name = "topframe"
 topframe_5.Parent = BlantantFrame
@@ -918,7 +867,7 @@ TextLabel_13.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_13.TextSize = 14.000
 TextLabel_13.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_33.Parent = TextLabel_13
+UIStroke_31.Parent = TextLabel_13
 
 AntiAnkles.Name = "AntiAnkles"
 AntiAnkles.Parent = BlantantFrame
@@ -947,7 +896,7 @@ TextLabel_14.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_14.TextSize = 12.000
 TextLabel_14.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_34.Parent = TextLabel_14
+UIStroke_32.Parent = TextLabel_14
 
 AutoAnkles.Name = "AutoAnkles"
 AutoAnkles.Parent = BlantantFrame
@@ -963,14 +912,14 @@ AutoAnkles.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoAnkles.TextSize = 11.000
 AutoAnkles.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_22.Rotation = -90
-UIGradient_22.Parent = AutoAnkles
+UIGradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_20.Rotation = -90
+UIGradient_20.Parent = AutoAnkles
 
-UIStroke_35.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_35.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_35.Thickness = 2.299999952316284
-UIStroke_35.Parent = AutoAnkles
+UIStroke_33.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_33.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_33.Thickness = 2.299999952316284
+UIStroke_33.Parent = AutoAnkles
 
 UICorner_12.CornerRadius = UDim.new(0, 2)
 UICorner_12.Parent = AutoAnkles
@@ -1001,14 +950,14 @@ AutoGreen_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoGreen_2.TextSize = 11.000
 AutoGreen_2.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_36.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_36.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_36.Thickness = 2.299999952316284
-UIStroke_36.Parent = AutoGreen_2
+UIStroke_34.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_34.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_34.Thickness = 2.299999952316284
+UIStroke_34.Parent = AutoGreen_2
 
-UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_23.Rotation = -90
-UIGradient_23.Parent = AutoGreen_2
+UIGradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_21.Rotation = -90
+UIGradient_21.Parent = AutoGreen_2
 
 UICorner_13.CornerRadius = UDim.new(0, 2)
 UICorner_13.Parent = AutoGreen_2
@@ -1039,14 +988,14 @@ ControllerAutoGreen_2.TextColor3 = Color3.fromRGB(255, 255, 255)
 ControllerAutoGreen_2.TextSize = 11.000
 ControllerAutoGreen_2.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_24.Rotation = -90
-UIGradient_24.Parent = ControllerAutoGreen_2
+UIGradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_22.Rotation = -90
+UIGradient_22.Parent = ControllerAutoGreen_2
 
-UIStroke_37.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_37.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_37.Thickness = 2.299999952316284
-UIStroke_37.Parent = ControllerAutoGreen_2
+UIStroke_35.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_35.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_35.Thickness = 2.299999952316284
+UIStroke_35.Parent = ControllerAutoGreen_2
 
 UICorner_14.CornerRadius = UDim.new(0, 2)
 UICorner_14.Parent = ControllerAutoGreen_2
@@ -1077,14 +1026,14 @@ AutoGuard.TextColor3 = Color3.fromRGB(255, 255, 255)
 AutoGuard.TextSize = 11.000
 AutoGuard.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_25.Rotation = -90
-UIGradient_25.Parent = AutoGuard
+UIGradient_23.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_23.Rotation = -90
+UIGradient_23.Parent = AutoGuard
 
-UIStroke_38.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_38.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_38.Thickness = 2.299999952316284
-UIStroke_38.Parent = AutoGuard
+UIStroke_36.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_36.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_36.Thickness = 2.299999952316284
+UIStroke_36.Parent = AutoGuard
 
 UICorner_15.CornerRadius = UDim.new(0, 2)
 UICorner_15.Parent = AutoGuard
@@ -1116,14 +1065,14 @@ PickUpRange.TextColor3 = Color3.fromRGB(255, 255, 255)
 PickUpRange.TextSize = 11.000
 PickUpRange.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_26.Rotation = -90
-UIGradient_26.Parent = PickUpRange
+UIGradient_24.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_24.Rotation = -90
+UIGradient_24.Parent = PickUpRange
 
-UIStroke_39.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_39.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_39.Thickness = 2.299999952316284
-UIStroke_39.Parent = PickUpRange
+UIStroke_37.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_37.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_37.Thickness = 2.299999952316284
+UIStroke_37.Parent = PickUpRange
 
 UICorner_16.CornerRadius = UDim.new(0, 2)
 UICorner_16.Parent = PickUpRange
@@ -1149,8 +1098,8 @@ PlayerBlantantFrame.BorderSizePixel = 2
 PlayerBlantantFrame.Position = UDim2.new(0.506742477, 0, 0.000213814987, 0)
 PlayerBlantantFrame.Size = UDim2.new(0, 241, 0, 292)
 
-UIStroke_40.Color = Color3.fromRGB(17, 17, 17)
-UIStroke_40.Parent = PlayerBlantantFrame
+UIStroke_38.Color = Color3.fromRGB(17, 17, 17)
+UIStroke_38.Parent = PlayerBlantantFrame
 
 topframe_6.Name = "topframe"
 topframe_6.Parent = PlayerBlantantFrame
@@ -1173,7 +1122,7 @@ TextLabel_20.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel_20.TextSize = 14.000
 TextLabel_20.TextXAlignment = Enum.TextXAlignment.Left
 
-UIStroke_41.Parent = TextLabel_20
+UIStroke_39.Parent = TextLabel_20
 
 SpinBot.Name = "SpinBot"
 SpinBot.Parent = PlayerBlantantFrame
@@ -1217,14 +1166,14 @@ Noclip.TextColor3 = Color3.fromRGB(255, 255, 255)
 Noclip.TextSize = 11.000
 Noclip.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_27.Rotation = -90
-UIGradient_27.Parent = Noclip
+UIGradient_25.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_25.Rotation = -90
+UIGradient_25.Parent = Noclip
 
-UIStroke_42.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_42.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_42.Thickness = 2.299999952316284
-UIStroke_42.Parent = Noclip
+UIStroke_40.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_40.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_40.Thickness = 2.299999952316284
+UIStroke_40.Parent = Noclip
 
 UICorner_17.CornerRadius = UDim.new(0, 2)
 UICorner_17.Parent = Noclip
@@ -1255,14 +1204,14 @@ TeleportFakeLag.TextColor3 = Color3.fromRGB(255, 255, 255)
 TeleportFakeLag.TextSize = 11.000
 TeleportFakeLag.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_28.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_28.Rotation = -90
-UIGradient_28.Parent = TeleportFakeLag
+UIGradient_26.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_26.Rotation = -90
+UIGradient_26.Parent = TeleportFakeLag
 
-UIStroke_43.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_43.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_43.Thickness = 2.299999952316284
-UIStroke_43.Parent = TeleportFakeLag
+UIStroke_41.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_41.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_41.Thickness = 2.299999952316284
+UIStroke_41.Parent = TeleportFakeLag
 
 UICorner_18.CornerRadius = UDim.new(0, 2)
 UICorner_18.Parent = TeleportFakeLag
@@ -1293,14 +1242,14 @@ WalkSpeedChanger.TextColor3 = Color3.fromRGB(255, 255, 255)
 WalkSpeedChanger.TextSize = 11.000
 WalkSpeedChanger.TextXAlignment = Enum.TextXAlignment.Left
 
-UIGradient_29.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_29.Rotation = -90
-UIGradient_29.Parent = WalkSpeedChanger
+UIGradient_27.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient_27.Rotation = -90
+UIGradient_27.Parent = WalkSpeedChanger
 
-UIStroke_44.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_44.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_44.Thickness = 2.299999952316284
-UIStroke_44.Parent = WalkSpeedChanger
+UIStroke_42.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_42.Color = Color3.fromRGB(24, 24, 24)
+UIStroke_42.Thickness = 2.299999952316284
+UIStroke_42.Parent = WalkSpeedChanger
 
 UICorner_19.CornerRadius = UDim.new(0, 2)
 UICorner_19.Parent = WalkSpeedChanger
@@ -1332,117 +1281,9 @@ TextBox_3.TextScaled = true
 TextBox_3.TextSize = 20.000
 TextBox_3.TextWrapped = true
 
-AutoFarmFrame.Name = "AutoFarmFrame"
-AutoFarmFrame.Parent = ui
-AutoFarmFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-AutoFarmFrame.BorderColor3 = Color3.fromRGB(16, 16, 16)
-AutoFarmFrame.BorderSizePixel = 2
-AutoFarmFrame.Position = UDim2.new(0.0108592371, 0, 0.140209541, 0)
-AutoFarmFrame.Size = UDim2.new(0, 536, 0, 432)
-AutoFarmFrame.Visible = false
-
-UIStroke_45.Color = Color3.fromRGB(17, 17, 17)
-UIStroke_45.Parent = AutoFarmFrame
-
-topframe_7.Name = "topframe"
-topframe_7.Parent = AutoFarmFrame
-topframe_7.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
-topframe_7.BackgroundTransparency = 0.400
-topframe_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
-topframe_7.BorderSizePixel = 0
-topframe_7.Size = UDim2.new(0, 238, 0, 18)
-
-TextLabel_24.Parent = AutoFarmFrame
-TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_24.BackgroundTransparency = 1.000
-TextLabel_24.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_24.BorderSizePixel = 0
-TextLabel_24.Size = UDim2.new(0, 238, 0, 18)
-TextLabel_24.Font = Enum.Font.Gotham
-TextLabel_24.Text = "AutoFarm / Test Feature"
-TextLabel_24.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_24.TextSize = 12.000
-TextLabel_24.TextXAlignment = Enum.TextXAlignment.Left
-
-Court1.Name = "Court 1"
-Court1.Parent = AutoFarmFrame
-Court1.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-Court1.BorderColor3 = Color3.fromRGB(15, 15, 15)
-Court1.BorderSizePixel = 2
-Court1.Position = UDim2.new(0.00637248019, 0, 0.0780715272, 0)
-Court1.Size = UDim2.new(0, 13, 0, 11)
-Court1.Font = Enum.Font.Ubuntu
-Court1.Text = "         "
-Court1.TextColor3 = Color3.fromRGB(255, 255, 255)
-Court1.TextSize = 11.000
-Court1.TextXAlignment = Enum.TextXAlignment.Left
-
-UIGradient_30.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_30.Rotation = -90
-UIGradient_30.Parent = Court1
-
-UIStroke_46.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_46.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_46.Thickness = 2.299999952316284
-UIStroke_46.Parent = Court1
-
-UICorner_20.CornerRadius = UDim.new(0, 2)
-UICorner_20.Parent = Court1
-
-TextLabel_25.Parent = Court1
-TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_25.BackgroundTransparency = 1.000
-TextLabel_25.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_25.BorderSizePixel = 0
-TextLabel_25.Position = UDim2.new(1.61538231, 0, 0, 0)
-TextLabel_25.Size = UDim2.new(0, 58, 0, 12)
-TextLabel_25.Font = Enum.Font.Ubuntu
-TextLabel_25.Text = "Court 1"
-TextLabel_25.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_25.TextSize = 12.000
-TextLabel_25.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
-Court2.Name = "Court 2"
-Court2.Parent = AutoFarmFrame
-Court2.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-Court2.BorderColor3 = Color3.fromRGB(15, 15, 15)
-Court2.BorderSizePixel = 2
-Court2.Position = UDim2.new(0.00637248019, 0, 0.131312266, 0)
-Court2.Size = UDim2.new(0, 13, 0, 11)
-Court2.Font = Enum.Font.Ubuntu
-Court2.Text = "         "
-Court2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Court2.TextSize = 11.000
-Court2.TextXAlignment = Enum.TextXAlignment.Left
-
-UIGradient_31.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(59, 59, 59)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(206, 206, 206)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
-UIGradient_31.Rotation = -90
-UIGradient_31.Parent = Court2
-
-UIStroke_47.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-UIStroke_47.Color = Color3.fromRGB(24, 24, 24)
-UIStroke_47.Thickness = 2.299999952316284
-UIStroke_47.Parent = Court2
-
-UICorner_21.CornerRadius = UDim.new(0, 2)
-UICorner_21.Parent = Court2
-
-TextLabel_26.Parent = Court2
-TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_26.BackgroundTransparency = 1.000
-TextLabel_26.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_26.BorderSizePixel = 0
-TextLabel_26.Position = UDim2.new(1.61538231, 0, 0, 0)
-TextLabel_26.Size = UDim2.new(0, 58, 0, 12)
-TextLabel_26.Font = Enum.Font.Ubuntu
-TextLabel_26.Text = "Court 2"
-TextLabel_26.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_26.TextSize = 12.000
-TextLabel_26.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
-
 -- Scripts:
 
-local function RETTBDP_fake_script() -- NovaArcade.NotificationScript 
+local function UXMMWP_fake_script() -- NovaArcade.NotificationScript 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local sg=game:GetService("StarterGui")
@@ -1453,8 +1294,8 @@ local function RETTBDP_fake_script() -- NovaArcade.NotificationScript
 	
 	
 end
-coroutine.wrap(RETTBDP_fake_script)()
-local function TCBK_fake_script() -- NovaArcade.AntiAfk 
+coroutine.wrap(UXMMWP_fake_script)()
+local function AIKPKSN_fake_script() -- NovaArcade.AntiAfk 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local Players = game:GetService("Players")
@@ -1472,8 +1313,8 @@ local function TCBK_fake_script() -- NovaArcade.AntiAfk
 	preventIdle()
 	
 end
-coroutine.wrap(TCBK_fake_script)()
-local function BOTBCAG_fake_script() -- NovaArcade.LocalScript 
+coroutine.wrap(AIKPKSN_fake_script)()
+local function OUOYTRJ_fake_script() -- NovaArcade.LocalScript 
 	local script = Instance.new('LocalScript', NovaArcade)
 
 	local request = (syn and syn.request) or (http and http.request) or http_request or request;
@@ -1499,8 +1340,8 @@ local function BOTBCAG_fake_script() -- NovaArcade.LocalScript
 	})
 	
 end
-coroutine.wrap(BOTBCAG_fake_script)()
-local function QCFOSED_fake_script() -- ui.LocalScript 
+coroutine.wrap(OUOYTRJ_fake_script)()
+local function MXPQH_fake_script() -- ui.LocalScript 
 	local script = Instance.new('LocalScript', ui)
 
 	local MAINFRAME = script.Parent
@@ -1519,8 +1360,8 @@ local function QCFOSED_fake_script() -- ui.LocalScript
 	
 	
 end
-coroutine.wrap(QCFOSED_fake_script)()
-local function QSFTE_fake_script() -- Tab1.LocalScript 
+coroutine.wrap(MXPQH_fake_script)()
+local function NXGI_fake_script() -- Tab1.LocalScript 
 	local script = Instance.new('LocalScript', Tab1)
 
 	
@@ -1528,12 +1369,11 @@ local function QSFTE_fake_script() -- Tab1.LocalScript
 		script.Parent.Parent.Parent.Parent.TweaksFrame.Visible = true
 		script.Parent.Parent.Parent.Parent.BlatantFrame.Visible = false
 		script.Parent.Parent.Parent.Parent.SettingsFrame.Visible = false
-		script.Parent.Parent.Parent.Parent.AutoFarmFrame.Visible = false
 	
 	end)
 end
-coroutine.wrap(QSFTE_fake_script)()
-local function FIHDCC_fake_script() -- Tab3.LocalScript 
+coroutine.wrap(NXGI_fake_script)()
+local function KTUMX_fake_script() -- Tab3.LocalScript 
 	local script = Instance.new('LocalScript', Tab3)
 
 	
@@ -1541,56 +1381,39 @@ local function FIHDCC_fake_script() -- Tab3.LocalScript
 		script.Parent.Parent.Parent.Parent.TweaksFrame.Visible = false
 		script.Parent.Parent.Parent.Parent.BlatantFrame.Visible = false
 		script.Parent.Parent.Parent.Parent.SettingsFrame.Visible = true
-		script.Parent.Parent.Parent.Parent.AutoFarmFrame.Visible = false
 	
 	end)
 end
-coroutine.wrap(FIHDCC_fake_script)()
-local function HZJGE_fake_script() -- Tab2.LocalScript 
+coroutine.wrap(KTUMX_fake_script)()
+local function MFPPV_fake_script() -- Tab2.LocalScript 
 	local script = Instance.new('LocalScript', Tab2)
 
 	
 	script.Parent.MouseButton1Click:connect(function()
 		script.Parent.Parent.Parent.Parent.TweaksFrame.Visible = false
 		script.Parent.Parent.Parent.Parent.BlatantFrame.Visible = true
-		script.Parent.Parent.Parent.Parent.SettingsFrame.Visible = false
-		script.Parent.Parent.Parent.Parent.AutoFarmFrame.Visible = false
 	
 	end)
 	
 end
-coroutine.wrap(HZJGE_fake_script)()
-local function OOGGI_fake_script() -- Tab4.LocalScript 
-	local script = Instance.new('LocalScript', Tab4)
-
-	
-	script.Parent.MouseButton1Click:connect(function()
-		script.Parent.Parent.Parent.Parent.TweaksFrame.Visible = false
-		script.Parent.Parent.Parent.Parent.BlatantFrame.Visible = false
-		script.Parent.Parent.Parent.Parent.SettingsFrame.Visible = false
-		script.Parent.Parent.Parent.Parent.AutoFarmFrame.Visible = true
-	
-		
-	end)
-end
-coroutine.wrap(OOGGI_fake_script)()
-local function QKWTKI_fake_script() -- InfiniteStam.Obfuscated-LocalScript 
+coroutine.wrap(MFPPV_fake_script)()
+local function JZQC_fake_script() -- InfiniteStam.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', InfiniteStam)
 
 	
 	
 	local Players = game:GetService("Players") local player = Players.LocalPlayer local Toggle  local loopActive = false local staminaValue = nil   local function findStamina() local playerValues = player:FindFirstChild("Values") if playerValues then staminaValue = playerValues:FindFirstChild("Stamina") or playerValues:FindFirstChild("MaxStamina") if staminaValue then return staminaValue end end if player.Character then local charValues = player.Character:FindFirstChild("Values") if charValues then staminaValue = charValues:FindFirstChild("Stamina") or charValues:FindFirstChild("MaxStamina") end end return staminaValue end  local function enforceStamina() while loopActive and task.wait() do if not staminaValue or not staminaValue.Parent then staminaValue = findStamina() end  if staminaValue then if staminaValue:IsA("BoolValue") then staminaValue.Value = true elseif (staminaValue:IsA("IntValue") or staminaValue:IsA("NumberValue")) then staminaValue.Value = 1  end end end end  local function startStaminaEnforcement() coroutine.wrap(function() enforceStamina() end)() end  player.CharacterAdded:Connect(function() if Toggle then staminaValue = findStamina() end end)  if Toggle then print("working") startStaminaEnforcement() end   script.Parent.MouseButton1Click:Connect(function() Toggle = not Toggle loopActive = Toggle  if Toggle then startStaminaEnforcement() script.Parent.BackgroundColor3 = Color3.fromRGB(255, 228, 26)  else script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15)  end end)  
 end
-coroutine.wrap(QKWTKI_fake_script)()
-local function KVHO_fake_script() -- AutoSprint.Obfuscated-LocalScript 
+coroutine.wrap(JZQC_fake_script)()
+local function VHPSZ_fake_script() -- AutoSprint.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoSprint)
 
 	
 	
 	local sprintEvent = game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Sprint") local Toggle = false  script.Parent.MouseButton1Click:Connect(function() Toggle = not Toggle  if Toggle then  script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74)  while Toggle do sprintEvent:FireServer(true) task.wait()  end else script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15)  sprintEvent:FireServer(false)  end end) 
 end
-coroutine.wrap(KVHO_fake_script)()
-local function TYARYMD_fake_script() -- AntiFling.Obfuscated-LocalScript 
+coroutine.wrap(VHPSZ_fake_script)()
+local function TVURRH_fake_script() -- AntiFling.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AntiFling)
 
 	--[[
@@ -1602,15 +1425,15 @@ local function TYARYMD_fake_script() -- AntiFling.Obfuscated-LocalScript
 	
 	local Services = setmetatable({}, {__index = function(Self, Index) local NewService = game.GetService(game, Index) if NewService then Self[Index] = NewService end return NewService end})   local LocalPlayer = Services.Players.LocalPlayer   local antifling = false local Toggle = false local Parent = script.Parent.Parent  local function PlayerAdded(Player) local Detected = false local Character; local PrimaryPart;  local function CharacterAdded(NewCharacter) Character = NewCharacter repeat wait() PrimaryPart = NewCharacter:FindFirstChild("HumanoidRootPart") until PrimaryPart Detected = false end  CharacterAdded(Player.Character or Player.CharacterAdded:Wait()) Player.CharacterAdded:Connect(CharacterAdded) Services.RunService.Heartbeat:Connect(function() if Toggle and (Character and Character:IsDescendantOf(workspace)) and (PrimaryPart and PrimaryPart:IsDescendantOf(Character)) then if PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 or PrimaryPart.AssemblyLinearVelocity.Magnitude > 100 then Detected = true for i,v in ipairs(Character:GetDescendants()) do if v:IsA("BasePart") then v.CanCollide = false v.AssemblyAngularVelocity = Vector3.new(0, 0, 0) v.AssemblyLinearVelocity = Vector3.new(0, 0, 0) v.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0) end end  PrimaryPart.CanCollide = false PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0) PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0) PrimaryPart.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0) end end end) end  for i,v in ipairs(Services.Players:GetPlayers()) do if v ~= LocalPlayer then PlayerAdded(v) end end Services.Players.PlayerAdded:Connect(PlayerAdded)  local LastPosition = nil Services.RunService.Heartbeat:Connect(function() pcall(function() local PrimaryPart = LocalPlayer.Character.PrimaryPart if Toggle and (PrimaryPart.AssemblyLinearVelocity.Magnitude > 250 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 250) then PrimaryPart.AssemblyAngularVelocity = Vector3.new(0, 0, 0) PrimaryPart.AssemblyLinearVelocity = Vector3.new(0, 0, 0) PrimaryPart.CFrame = LastPosition elseif PrimaryPart.AssemblyLinearVelocity.Magnitude < 50 or PrimaryPart.AssemblyAngularVelocity.Magnitude > 50 then LastPosition = PrimaryPart.CFrame end end) end)  script.Parent.MouseButton1Click:connect(function() if not Toggle then Toggle = true if Toggle == true then  antifling = true end script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74) elseif Toggle then Toggle = false if Toggle == false then antifling = false end script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15) end end)   
 end
-coroutine.wrap(TYARYMD_fake_script)()
-local function KIJEYO_fake_script() -- ControllerAutoGreen.Obfuscated-LocalScript 
+coroutine.wrap(TVURRH_fake_script)()
+local function JXBOQ_fake_script() -- ControllerAutoGreen.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', ControllerAutoGreen)
 
 	
 	local Toggle = false local Parent = script.Parent.Parent  local autogreen = false local UIS = game:GetService("UserInputService")  script.Parent.MouseButton1Click:connect(function() if not Toggle then Toggle = true autogreen = true script.Parent.BackgroundColor3 = Color3.fromRGB(74, 74, 74) else Toggle = false autogreen = false script.Parent.BackgroundColor3 = Color3.fromRGB(15, 15, 15) end end)  UIS.InputBegan:Connect(function(input, gameProcessedEvent) if gameProcessedEvent then return end if input.KeyCode == Enum.KeyCode.DPadUp then if Toggle then local meter = Parent:FindFirstChild("Meter") if meter then meter.Enabled = true end game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(true, 100) game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, true) else game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, false) end end end)  UIS.InputEnded:Connect(function(input, gameProcessedEvent) if gameProcessedEvent then return end if input.KeyCode == Enum.KeyCode.ButtonB then game:GetService("ReplicatedStorage"):WaitForChild("Events"):WaitForChild("Shoot"):FireServer(false, -0.99, false) end end)   
 end
-coroutine.wrap(KIJEYO_fake_script)()
-local function DSNMUC_fake_script() -- AutoGreen.Obfuscated-LocalScript 
+coroutine.wrap(JXBOQ_fake_script)()
+local function LJCUIY_fake_script() -- AutoGreen.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGreen)
 
 	local UserInputService = game:GetService("UserInputService")
@@ -1751,8 +1574,8 @@ local function DSNMUC_fake_script() -- AutoGreen.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(DSNMUC_fake_script)()
-local function LKKADYD_fake_script() -- AutoScreen.LocalScript 
+coroutine.wrap(LJCUIY_fake_script)()
+local function LEDCTB_fake_script() -- AutoScreen.LocalScript 
 	local script = Instance.new('LocalScript', AutoScreen)
 
 	local Toggle = false
@@ -1794,8 +1617,8 @@ local function LKKADYD_fake_script() -- AutoScreen.LocalScript
 	end)
 	
 end
-coroutine.wrap(LKKADYD_fake_script)()
-local function NKUOGQ_fake_script() -- ForceReset.LocalScript 
+coroutine.wrap(LEDCTB_fake_script)()
+local function TMOUCO_fake_script() -- ForceReset.LocalScript 
 	local script = Instance.new('LocalScript', ForceReset)
 
 	local Players = game:GetService("Players")
@@ -1826,8 +1649,8 @@ local function NKUOGQ_fake_script() -- ForceReset.LocalScript
 	
 	
 end
-coroutine.wrap(NKUOGQ_fake_script)()
-local function ZKBM_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(TMOUCO_fake_script)()
+local function XNJFY_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1837,8 +1660,8 @@ local function ZKBM_fake_script() -- TextButton.LocalScript
 		game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId) 
 	end)
 end
-coroutine.wrap(ZKBM_fake_script)()
-local function EYCHCFI_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(XNJFY_fake_script)()
+local function ZTPFXL_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	local Players = game:GetService("Players")
@@ -1861,8 +1684,8 @@ local function EYCHCFI_fake_script() -- TextButton_2.LocalScript
 	
 	
 end
-coroutine.wrap(EYCHCFI_fake_script)()
-local function LNCONU_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(ZTPFXL_fake_script)()
+local function QZPCFZ_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1870,8 +1693,8 @@ local function LNCONU_fake_script() -- TextButton_3.LocalScript
 	
 	end)
 end
-coroutine.wrap(LNCONU_fake_script)()
-local function PSOME_fake_script() -- TextButton_4.LocalScript 
+coroutine.wrap(QZPCFZ_fake_script)()
+local function PDNJWI_fake_script() -- TextButton_4.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_4)
 
 	script.Parent.MouseButton1Click:Connect(function()
@@ -1924,16 +1747,16 @@ local function PSOME_fake_script() -- TextButton_4.LocalScript
 	
 	
 end
-coroutine.wrap(PSOME_fake_script)()
-local function NDSW_fake_script() -- AntiAnkles.Obfuscated-LocalScript 
+coroutine.wrap(PDNJWI_fake_script)()
+local function XVFQRLW_fake_script() -- AntiAnkles.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AntiAnkles)
 
 	
 	
 	local player = game:GetService("Players").LocalPlayer local anklesValue = player:WaitForChild("Values"):WaitForChild("Ankles") local char = player.Character or player.CharacterAdded:Wait() local hrp = char:WaitForChild("HumanoidRootPart") local humanoid = char:WaitForChild("Humanoid")  local ankleBreakerId = "rbxassetid://89008535250310"  script.Parent.MouseButton1Click:Connect(function()     local connection     connection = anklesValue:GetPropertyChangedSignal("Value"):Connect(function()         if anklesValue.Value == true then             local bv = hrp:FindFirstChildOfClass("BodyVelocity")             if bv then                 repeat bv.MaxForce = Vector3.new(0, 0, 0) task.wait() until bv.MaxForce == Vector3.new(0, 0, 0)             end             if humanoid and humanoid:FindFirstChildOfClass("Animator") then                 local animator = humanoid:FindFirstChildOfClass("Animator")                 local tracks = animator:GetPlayingAnimationTracks()                 for _, track in ipairs(tracks) do                     if track.Animation and track.Animation.AnimationId == ankleBreakerId then                         track:Stop()                     end                 end             end         end     end) end)   
 end
-coroutine.wrap(NDSW_fake_script)()
-local function PMOQAM_fake_script() -- AutoAnkles.Obfuscated--LocalScript 
+coroutine.wrap(XVFQRLW_fake_script)()
+local function WIPTS_fake_script() -- AutoAnkles.Obfuscated--LocalScript 
 	local script = Instance.new('LocalScript', AutoAnkles)
 
 	local Players = game:GetService("Players")
@@ -2015,8 +1838,8 @@ local function PMOQAM_fake_script() -- AutoAnkles.Obfuscated--LocalScript
 	
 	
 end
-coroutine.wrap(PMOQAM_fake_script)()
-local function COFR_fake_script() -- AutoGreen_2.Obfuscated-LocalScript 
+coroutine.wrap(WIPTS_fake_script)()
+local function ZROH_fake_script() -- AutoGreen_2.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGreen_2)
 
 	local Toggle = false
@@ -2073,8 +1896,8 @@ local function COFR_fake_script() -- AutoGreen_2.Obfuscated-LocalScript
 		end
 	end)
 end
-coroutine.wrap(COFR_fake_script)()
-local function SHSCA_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScript 
+coroutine.wrap(ZROH_fake_script)()
+local function FHGV_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', ControllerAutoGreen_2)
 
 	local Toggle = false
@@ -2152,8 +1975,8 @@ local function SHSCA_fake_script() -- ControllerAutoGreen_2.Obfuscated-LocalScri
 		end
 	end)
 end
-coroutine.wrap(SHSCA_fake_script)()
-local function DXXFDKR_fake_script() -- AutoGuard.Obfuscated-LocalScript 
+coroutine.wrap(FHGV_fake_script)()
+local function NQWUPOS_fake_script() -- AutoGuard.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', AutoGuard)
 
 	-- Services
@@ -2242,8 +2065,8 @@ local function DXXFDKR_fake_script() -- AutoGuard.Obfuscated-LocalScript
 	end)
 	
 end
-coroutine.wrap(DXXFDKR_fake_script)()
-local function ZUPS_fake_script() -- PickUpRange.Obfuscated--LocalScript 
+coroutine.wrap(NQWUPOS_fake_script)()
+local function UEDEPU_fake_script() -- PickUpRange.Obfuscated--LocalScript 
 	local script = Instance.new('LocalScript', PickUpRange)
 
 	local Players = game:GetService("Players")
@@ -2477,8 +2300,8 @@ local function ZUPS_fake_script() -- PickUpRange.Obfuscated--LocalScript
 	UpdatePickupState()
 	debugPrint("Script initialized")
 end
-coroutine.wrap(ZUPS_fake_script)()
-local function GLXLZLD_fake_script() -- TextBox_2.LocalScript 
+coroutine.wrap(UEDEPU_fake_script)()
+local function MFOLKOR_fake_script() -- TextBox_2.LocalScript 
 	local script = Instance.new('LocalScript', TextBox_2)
 
 	local Players = game:GetService("Players")
@@ -2523,8 +2346,8 @@ local function GLXLZLD_fake_script() -- TextBox_2.LocalScript
 	
 	
 end
-coroutine.wrap(GLXLZLD_fake_script)()
-local function MEZVP_fake_script() -- Noclip.Obfuscated-LocalScript 
+coroutine.wrap(MFOLKOR_fake_script)()
+local function IEKPI_fake_script() -- Noclip.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', Noclip)
 
 	local RunService = game:GetService("RunService")
@@ -2610,8 +2433,8 @@ local function MEZVP_fake_script() -- Noclip.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(MEZVP_fake_script)()
-local function KPUBHL_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript 
+coroutine.wrap(IEKPI_fake_script)()
+local function SDOTSS_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', TeleportFakeLag)
 
 	local Players = game:GetService("Players")
@@ -2674,8 +2497,8 @@ local function KPUBHL_fake_script() -- TeleportFakeLag.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(KPUBHL_fake_script)()
-local function XUERVS_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript 
+coroutine.wrap(SDOTSS_fake_script)()
+local function YKSDFG_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript 
 	local script = Instance.new('LocalScript', WalkSpeedChanger)
 
 	-- Services
@@ -2862,263 +2685,4 @@ local function XUERVS_fake_script() -- WalkSpeedChanger.Obfuscated-LocalScript
 	
 	
 end
-coroutine.wrap(XUERVS_fake_script)()
-local function XLIPFJ_fake_script() -- Court1.Obfuscated-LocalScript 
-	local script = Instance.new('LocalScript', Court1)
-
-	local Players = game:GetService("Players")
-	local Workspace = game:GetService("Workspace")
-	local ReplicatedStorage = game:GetService("ReplicatedStorage") -- Added ReplicatedStorage
-	
-	local LocalPlayer = Players.LocalPlayer
-	local button = script.Parent
-	
-	local isTeleportToggled = false
-	local targetPosition = Vector3.new(-96, 4, 13)
-	local teleportCoroutine = nil -- To manage the teleport loop
-	
-	-- Attempt to get the RemoteEvent, script will wait here if "Events" or "Spot" don't exist yet
-	local eventsFolder = ReplicatedStorage:WaitForChild("Events")
-	local spotEvent = eventsFolder:WaitForChild("Spot")
-	
-	button.MouseButton1Click:Connect(function()
-	    isTeleportToggled = not isTeleportToggled
-	
-	    if isTeleportToggled then
-	        button.BackgroundColor3 = Color3.fromRGB(255, 228, 26)
-	        print("Teleport to Court 1 toggled on.")
-	
-	        local courtsInstance = Workspace:FindFirstChild("Courts") or Workspace:FindFirstChild("Court_1")
-	
-	        if courtsInstance then
-	            print("Courts instance found:", courtsInstance:GetFullName())
-	
-	            -- If a coroutine is already running, it will be stopped by isTeleportToggled becoming false then true again.
-	            -- Or, we can explicitly manage it, but relying on isTeleportToggled is simpler.
-	            -- For this implementation, we'll create a new one. The old one (if any) would stop due to isTeleportToggled.
-	
-	            teleportCoroutine = coroutine.create(function()
-	                local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
-	                local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
-	                if not humanoidRootPart then
-	                    humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5) -- Wait up to 5 seconds for HRP
-	                end
-	
-	                -- Re-check courtsInstance within the coroutine's context, in case it was removed
-	                local currentCourtsInstance = Workspace:FindFirstChild("Courts") or Workspace:FindFirstChild("Court_1")
-	
-	                if not humanoidRootPart then
-	                    warn("HumanoidRootPart not found for initial teleportation. Aborting teleport sequence.")
-	                    teleportCoroutine = nil
-	                    -- Optionally, turn the toggle back off visually if HRP is critical and not found
-	                    -- isTeleportToggled = false
-	                    -- button.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	                    return
-	                end
-	
-	                if not currentCourtsInstance then
-	                    warn("'Courts' or 'Court_1' instance not found when starting teleport coroutine. Aborting.")
-	                    teleportCoroutine = nil
-	                    return
-	                end
-	                
-	                print("Teleport coroutine started. Courts instance:", currentCourtsInstance:GetFullName())
-	
-	                -- Initial Teleport
-	                humanoidRootPart.CFrame = CFrame.new(targetPosition)
-	                print("Player teleported (initial).")
-	
-	                -- Wait a split second
-	                task.wait(0.1)
-	
-	                -- Fire RemoteEvent
-	                local success, err = pcall(function()
-	                    if spotEvent then
-	                        spotEvent:FireServer()
-	                        print("Spot RemoteEvent fired.")
-	                    else
-	                        warn("Spot RemoteEvent reference is nil (was not found earlier).")
-	                    end
-	                end)
-	                if not success then
-	                    warn("Error firing Spot RemoteEvent:", err)
-	                end
-	
-	                -- Continuous Teleport Loop
-	                while isTeleportToggled do
-	                    -- Check if courtsInstance is still valid (e.g., not removed from game)
-	                    if not currentCourtsInstance or not currentCourtsInstance.Parent then
-	                        warn("Courts instance became invalid during teleport loop.")
-	                        break
-	                    end
-	                    
-	                    local charLoop = LocalPlayer.Character -- Re-fetch character in loop
-	                    if charLoop then
-	                        local hrpLoop = charLoop:FindFirstChild("HumanoidRootPart")
-	                        if hrpLoop then
-	                            hrpLoop.CFrame = CFrame.new(targetPosition)
-	                        else
-	                            warn("HumanoidRootPart lost during teleport loop.")
-	                            break -- Exit loop if HRP is lost
-	                        end
-	                    else
-	                        warn("Character lost during teleport loop.")
-	                        break -- Exit loop if character is lost
-	                    end
-	                    task.wait() -- Yield for a short moment before the next teleport
-	                end
-	                print("Teleport loop finished or broken.")
-	                teleportCoroutine = nil -- Clear the coroutine reference when it's done or broken
-	            end)
-	            coroutine.resume(teleportCoroutine)
-	        else
-	            warn("'Courts' or 'Court_1' instance not found in Workspace. Cannot start teleport loop.")
-	            -- If courtsInstance is not found, the button is visually "on" but teleport won't happen.
-	            -- User can toggle it off.
-	        end
-	    else
-	        button.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	        print("Teleport to Court 1 toggled off.")
-	        -- isTeleportToggled is now false, which will stop the loop in the coroutine on its next check.
-	        -- teleportCoroutine will be set to nil by the coroutine itself when it finishes.
-	    end
-	end)
-	
-	-- Initial button color (starts off)
-	button.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	
-	
-end
-coroutine.wrap(XLIPFJ_fake_script)()
-local function UCMMBO_fake_script() -- Court2.Obfuscated-LocalScript 
-	local script = Instance.new('LocalScript', Court2)
-
-	
-	
-	
-	
-	
-	local Players = game:GetService("Players")
-	local Workspace = game:GetService("Workspace")
-	local ReplicatedStorage = game:GetService("ReplicatedStorage") -- Added ReplicatedStorage
-	
-	local LocalPlayer = Players.LocalPlayer
-	local button = script.Parent
-	
-	local isTeleportToggled = false
-	local targetPosition = Vector3.new(-100, 4, 160)
-	local teleportCoroutine = nil -- To manage the teleport loop
-	
-	-- Attempt to get the RemoteEvent, script will wait here if "Events" or "Spot" don't exist yet
-	local eventsFolder = ReplicatedStorage:WaitForChild("Events")
-	local spotEvent = eventsFolder:WaitForChild("Spot")
-	
-	button.MouseButton1Click:Connect(function()
-		isTeleportToggled = not isTeleportToggled
-	
-		if isTeleportToggled then
-			button.BackgroundColor3 = Color3.fromRGB(255, 228, 26)
-			print("Teleport to Court 2 toggled on.")
-	
-			local courtsInstance = Workspace:FindFirstChild("Courts") or Workspace:FindFirstChild("Court_2")
-	
-			if courtsInstance then
-				print("Courts instance found:", courtsInstance:GetFullName())
-	
-				-- If a coroutine is already running, it will be stopped by isTeleportToggled becoming false then true again.
-				-- Or, we can explicitly manage it, but relying on isTeleportToggled is simpler.
-				-- For this implementation, we'll create a new one. The old one (if any) would stop due to isTeleportToggled.
-	
-				teleportCoroutine = coroutine.create(function()
-					local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
-					local humanoidRootPart = character:FindFirstChild("HumanoidRootPart")
-					if not humanoidRootPart then
-						humanoidRootPart = character:WaitForChild("HumanoidRootPart", 5) -- Wait up to 5 seconds for HRP
-					end
-	
-					-- Re-check courtsInstance within the coroutine's context, in case it was removed
-					local currentCourtsInstance = Workspace:FindFirstChild("Courts") or Workspace:FindFirstChild("Court_2")
-	
-					if not humanoidRootPart then
-						warn("HumanoidRootPart not found for initial teleportation. Aborting teleport sequence.")
-						teleportCoroutine = nil
-						-- Optionally, turn the toggle back off visually if HRP is critical and not found
-						-- isTeleportToggled = false
-						-- button.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-						return
-					end
-	
-					if not currentCourtsInstance then
-						warn("'Courts' or 'Court_2' instance not found when starting teleport coroutine. Aborting.")
-						teleportCoroutine = nil
-						return
-					end
-	
-					print("Teleport coroutine started. Courts instance:", currentCourtsInstance:GetFullName())
-	
-					-- Initial Teleport
-					humanoidRootPart.CFrame = CFrame.new(targetPosition)
-					print("Player teleported (initial).")
-	
-					-- Wait a split second
-					task.wait(0.1)
-	
-					-- Fire RemoteEvent
-					local success, err = pcall(function()
-						if spotEvent then
-							spotEvent:FireServer()
-							print("Spot RemoteEvent fired.")
-						else
-							warn("Spot RemoteEvent reference is nil (was not found earlier).")
-						end
-					end)
-					if not success then
-						warn("Error firing Spot RemoteEvent:", err)
-					end
-	
-					-- Continuous Teleport Loop
-					while isTeleportToggled do
-						-- Check if courtsInstance is still valid (e.g., not removed from game)
-						if not currentCourtsInstance or not currentCourtsInstance.Parent then
-							warn("Courts instance became invalid during teleport loop.")
-							break
-						end
-	
-						local charLoop = LocalPlayer.Character -- Re-fetch character in loop
-						if charLoop then
-							local hrpLoop = charLoop:FindFirstChild("HumanoidRootPart")
-							if hrpLoop then
-								hrpLoop.CFrame = CFrame.new(targetPosition)
-							else
-								warn("HumanoidRootPart lost during teleport loop.")
-								break -- Exit loop if HRP is lost
-							end
-						else
-							warn("Character lost during teleport loop.")
-							break -- Exit loop if character is lost
-						end
-						task.wait() -- Yield for a short moment before the next teleport
-					end
-					print("Teleport loop finished or broken.")
-					teleportCoroutine = nil -- Clear the coroutine reference when it's done or broken
-				end)
-				coroutine.resume(teleportCoroutine)
-			else
-				warn("'Courts' or 'Court_2' instance not found in Workspace. Cannot start teleport loop.")
-				-- If courtsInstance is not found, the button is visually "on" but teleport won't happen.
-				-- User can toggle it off.
-			end
-		else
-			button.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-			print("Teleport to Court 2 toggled off.")
-			-- isTeleportToggled is now false, which will stop the loop in the coroutine on its next check.
-			-- teleportCoroutine will be set to nil by the coroutine itself when it finishes.
-		end
-	end)
-	
-	-- Initial button color (starts off)
-	button.BackgroundColor3 = Color3.fromRGB(15, 15, 15)
-	
-	
-end
-coroutine.wrap(UCMMBO_fake_script)()
+coroutine.wrap(YKSDFG_fake_script)()
